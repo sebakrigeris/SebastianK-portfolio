@@ -177,6 +177,9 @@ nav {
 
 
 
+
+
+
 // SECCIÓN 2 - Sobre mi
 
 
@@ -307,91 +310,12 @@ nav {
         }
 
         .progreso-barra {
-            background-color: #A5B1E0;
+            background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
             width: 733px;
             height: 10px;
-
-            div {
-                height: 10px;
-                border-radius: 5px;
-                width: 0%;
-                background-color: antiquewhite;
-
-                span {
-                    height: 40px;
-                    width: 40px;
-                    border-radius: 50%;
-                    background-color: antiquewhite;
-                    float: right;
-                    margin-top: -15px;
-                    margin-right: -20px;
-                    color: black;
-
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-            }
         }
 
     }
-
-        .html {
-            background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
-            animation: html 1s linear forwards;
-        }
-        .css {
-            background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
-            animation: css 1s linear forwards;   
-        }
-        .javascript {
-            background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
-            animation: javascript 1s linear forwards;
-        }
-        .bootstrap {
-            background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
-            animation: bootstrap 1s linear forwards;
-        }
-        .sass {
-            background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
-            animation: sass 1s linear forwards;
-        }
-        .git {
-            background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
-            animation: git 1s linear forwards;
-        }
-
-        @keyframes html {
-            100% {
-                width: 90%;
-            }
-        }
-        @keyframes css {
-            100% {
-                width: 90%;
-            }
-        }
-        @keyframes javascript {
-            100% {
-                width: 70%;
-            }
-        }
-        @keyframes bootstrap {
-            100% {
-                width: 75%;
-            }
-        }
-        @keyframes sass {
-            100% {
-                width: 75%;
-            }
-        }
-        @keyframes git {
-            100% {
-                width: 65%;
-            }
-        }
-
 
         .aptitud-text {
             font-size: 30px;
@@ -437,7 +361,7 @@ nav {
     h2 {
         text-align: center;
         font-family: var(--font-tittle);
-        font-size: 70px;
+        font-size: 60px;
         background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
         -webkit-background-clip: text;
         background-clip: text;
@@ -751,873 +675,230 @@ nav {
 
 
 
+// SECCION 5 - CONTACTO 
+
+.contacto {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--fondo-1);
+
+    display: flex;
+    justify-content: center;
+
+    
+        .contain {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+
+            h2 {
+                font-family: var(--font-tittle);
+                font-size: 60px;
+                background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                color: white;
+                font-size: 30px;
+                font-family: var(--font-text);
+            }
+
+            .button-contacto {
+                display: flex;
+                gap: 5rem;
+            }
+
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 15rem;
+                height: 4rem;
+                background-size: 300% 300%;
+                backdrop-filter: blur(1rem);
+                border-radius: 5rem;
+                transition: 0.5s;
+                animation: gradient_301 5s ease infinite;
+                border: double 4px transparent;
+                background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%);
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+            }
+            
+                #container-stars {
+                position: fixed;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                transition: 0.5s;
+                backdrop-filter: blur(1rem);
+                border-radius: 5rem;
+            }
+            
+                strong {
+                z-index: 2;
+                font-family: var(--font-text);
+                font-size: 25px;
+                letter-spacing: 5px;
+                color: #FFFFFF;
+                text-shadow: 0 0 4px white;
+                font-weight: 200;
+            }
+            
+                #glow {
+                position: absolute;
+                display: flex;
+                width: 12rem;
+            }
+            
+                .circle {
+                width: 100%;
+                height: 30px;
+                filter: blur(2rem);
+                animation: pulse_3011 4s infinite;
+                z-index: -1;
+            }
+            
+                .circle:nth-of-type(1) {
+                background: rgba(254, 83, 186, 0.636);
+            }
+            
+                .circle:nth-of-type(2) {
+                background: rgba(142, 81, 234, 0.704);
+            }
+            
+                .btn:hover #container-stars {
+                z-index: 1;
+                background-color: #212121;
+            }
+            
+                .btn:hover {
+                transform: scale(1.1)
+            }
+            
+                .btn:active {
+                border: double 4px #FE53BB;
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                animation: none;
+            }
+            
+                .btn:active .circle {
+                background: #FE53BB;
+            }
+            
+                #stars {
+                position: relative;
+                background: transparent;
+                width: 200rem;
+                height: 200rem;
+            }
+            
+                #stars::after {
+                content: "";
+                position: absolute;
+                top: -10rem;
+                left: -100rem;
+                width: 100%;
+                height: 100%;
+                animation: animStarRotate 90s linear infinite;
+            }
+            
+                #stars::after {
+                background-image: radial-gradient(#ffffff 1px, transparent 1%);
+                background-size: 50px 50px;
+            }
+            
+                #stars::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -50%;
+                width: 170%;
+                height: 500%;
+                animation: animStar 60s linear infinite;
+            }
+            
+                #stars::before {
+                background-image: radial-gradient(#ffffff 1px, transparent 1%);
+                background-size: 50px 50px;
+                opacity: 0.5;
+            }
+            
+                @keyframes animStar {
+                from {
+                transform: translateY(0);
+                }
+            
+                to {
+                transform: translateY(-135rem);
+                }
+            }
+            
+                @keyframes animStarRotate {
+                from {
+                transform: rotate(360deg);
+                }
+            
+                to {
+                transform: rotate(0);
+                }
+            }
+            
+                @keyframes gradient_301 {
+                0% {
+                background-position: 0% 50%;
+                }
+            
+                50% {
+                background-position: 100% 50%;
+                }
+            
+                100% {
+                background-position: 0% 50%;
+                }
+            }
+            
+                @keyframes pulse_3011 {
+                0% {
+                transform: scale(0.75);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+                }
+            
+                70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+                }
+            
+                100% {
+                transform: scale(0.75);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                }
+            }
+    
+        }    
+}
+
 
 
 
 // MEDIA QUERYS - 768PX
 
-@media screen and (max-width: 768px) {
-
-    // MENÚ HAMBURGUESA - 768px
-
-    header {
-    
-        nav {
-            gap: 12.2rem;
-            height: 70px;
-
-            .logo {
-                font-size: 40px;
-            }
-            .abrir-menu {
-                display: block;
-                font-size: 40px;
-            } 
-            .menu-links {
-                flex-direction: column;
-                align-items: end;
-                position: fixed;
-                top: 70px;
-                right: 0;
-                padding: 1rem;
-                
-                background-color: #A5B1E0;
-
-                height: calc(100% - 70px);
-                margin: 0;
-
-                right: 100%;
-                transition: right 0.3s;
-            }
-
-            .nav-visible {
-                right: 0;
-            }
-        }
-    }
-    
-
-
-    // SECCION 1 - INDEX - 768PX
-
-    .inicio {
-        flex-direction: column;
-        gap: 3rem;
-        height: 1270px;
-        margin-top: -2rem;
-
-        img {
-            width: 350px;
-        }
-
-        .sec-img-redes {
-            padding: 10rem;     
-        }
-        .sec1-redes {
-            font-size: 40px;
-        }
-        .sec1-texto {
-            margin-top: 0rem;
-            text-align: center;
-            h2 {
-                font-size: 65px;
-            }
-            h3 {
-                font-size: 46px;
-            }
-            p{
-                font-size: 36px;
-            }
-            a {
-                margin: 0px 10px 0px 10px;
-            }
-        }
-    }
-
-
-    // SECCION 2 - SOBRE MI - 576PX
-
-    .sobre-mi {
-        height: 1000px;
-
-        h2 {
-            font-size: 55px;
-            margin-top: 1rem;
-        }
-
-        .seccion2 {
-            width: 82.5%;
-            font-size: 20px;
-            flex-direction: column;
-            padding: 1.5rem;
-            margin-top: -8rem;
-            margin-left: 0.3rem;
-            p {
-                width: 100%;
-                font-size: 22px;
-            }
-            .intereses {
-                grid-template-columns: repeat(4,auto);
-
-                .h2-intereses {
-                    grid-column: 1/5;
-                    text-align: center;
-                    margin-top: 5.5rem;
-                    margin-bottom: 0.7rem;
-                }
-            }
-        }
-    }
-
-    // SECCION 3 - HABILIDADES - 576PX
-
-    .habilidades {
-        height: 1330px;
-
-        h2 {
-            font-size: 55px;
-            margin-left: -0.4rem;
-        }
-
-        .habilidad {
-            grid-template-columns: repeat(1,auto);
-            justify-content: center;
-            margin-left: 0;
-
-            .progreso-barra {
-                width: 630px;
-                margin-left: 3px;
-            }
-        }
-
-        .aptitud-text {
-            text-align: center;
-            margin-left: 4.5rem;
-            margin-top: 3.5rem;
-            width: 81.9%;
-        }
-        .aptitudes {
-            gap: 4rem;
-            display: grid;
-            grid-template-columns: repeat(3, auto);
-            margin-top: 3rem;
-
-            img {
-                width: 80px;
-            }
-            p {
-                font-size: 20px;
-            }
-        }
-    }
-
-
-    // SECCION 4 PROYECTOS - 576PX
-
-    .proyectos {
-        height: 100%;
-
-        h2 {
-            font-size: 50px;
-        }
-
-        .img1 {
-            display: grid;
-            place-items: center;
-
-            .apple1 {
-                width: 632px;
-                height: 470px;
-                margin-left: 3px;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 82.5%;
-                height: 350px;
-                margin-left: 4px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 15px;
-                        padding: 5px 7px;
-                    }
-                }
-
-                .texto-sitio1 {
-                    margin-top: 2rem;
-                }
-                h4 {
-                    margin-top: 1.5rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-        }
-
-        .img2 {
-            display: grid;
-            place-items: center;
-
-            .apple2 {
-                width: 632px;
-                height: 470px;
-                margin-right: 4.1rem;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 84%;
-                height: 350px;
-                margin-right: 1.1rem;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 15px;
-                        padding: 5px 7px;
-                    }
-                }
-
-                .texto-sitio1 {
-                    margin-top: 2rem;
-                }
-                h4 {
-                    margin-top: 1.5rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-        }
-
-        .img3 {
-            display: grid;
-            place-items: center;
-
-            .apple3 {
-                width: 500px;
-                height: 370px;
-                margin-left: 0;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 87%;
-                height: 350px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 15px;
-                        padding: 5px 7px;
-                    }
-                }
-
-                .texto-sitio1 {
-                    margin-top: 2rem;
-                }
-                h4 {
-                    margin-top: 1.5rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-
-        }
-
-    }
-
-
-}
-
-
-
-
-
-
-
 
 // MEDIA QUERYS - 576PX
-
-@media screen and (max-width: 576px) {
-
-    // MENÚ HAMBURGUESA 
-
-    header {
-    
-        nav {
-            gap: 12.2rem;
-            height: 70px;
-
-            .logo {
-                font-size: 30px;
-            }
-            .abrir-menu {
-                display: block;
-                font-size: 35px;
-            } 
-            .menu-links {
-                flex-direction: column;
-                align-items: end;
-                position: fixed;
-                top: 70px;
-                right: 0;
-                padding: 1rem;
-                
-                background-color: #A5B1E0;
-
-                height: calc(100% - 70px);
-                margin: 0;
-
-                right: 100%;
-                transition: right 0.3s;
-            }
-
-            .nav-visible {
-                right: 0;
-            }
-        }
-    }
-    
-
-
-    // SECCION 1 - INDEX - 576PX
-
-    .inicio {
-        flex-direction: column;
-        gap: 3rem;
-        height: 1080px;
-        margin-top: -1.5rem;
-
-        img {
-            width: 250px;
-        }
-
-        .sec-img-redes {
-            padding: 10rem;     
-        }
-        .sec1-redes {
-            font-size: 40px;
-        }
-        .sec1-texto {
-            margin-top: 0rem;
-            text-align: center;
-            h2 {
-                font-size: 53px;
-            }
-            h3 {
-                font-size: 34px;
-            }
-            p{
-                font-size: 26px;
-            }
-            a {
-                margin: 0px 10px 0px 10px;
-            }
-        }
-    }
-
-
-    // SECCION 2 - SOBRE MI - 576PX
-
-    .sobre-mi {
-        height: 1000px;
-
-        h2 {
-            font-size: 50px;
-            margin-top: 2rem;
-        }
-
-        .seccion2 {
-            width: 87.5%;
-            font-size: 20px;
-            flex-direction: column;
-            padding: 1.5rem;
-            margin-top: -6rem;
-            p {
-                width: 100%;
-            }
-            .intereses {
-                grid-template-columns: repeat(3,auto);
-
-                .h2-intereses {
-                    grid-column: 1/4;
-                    text-align: center;
-                    margin-top: 5.5rem;
-                    margin-bottom: 0.7rem;
-                }
-            }
-        }
-    }
-
-    // SECCION 3 - HABILIDADES - 576PX
-
-    .habilidades {
-        height: 1300px;
-
-        h2 {
-            font-size: 50px;
-            margin-left: -1.2rem;
-        }
-
-        .habilidad {
-            grid-template-columns: repeat(1,auto);
-            justify-content: center;
-            margin-left: 0;
-
-            .progreso-barra {
-                width: 500px;
-            }
-        }
-
-        .aptitud-text {
-            text-align: center;
-            margin-left: 3.5rem;
-            margin-top: 3.5rem;
-            width: 80%;
-        }
-        .aptitudes {
-            gap: 4rem;
-            display: grid;
-            grid-template-columns: repeat(3, auto);
-            margin-top: 3rem;
-
-            img {
-                width: 70px;
-            }
-            p {
-                font-size: 18px;
-            }
-        }
-    }
-
-
-    // SECCION 4 PROYECTOS - 576PX
-
-    .proyectos {
-        height: 100%;
-
-        h2 {
-            font-size: 50px;
-        }
-
-        .img1 {
-            display: grid;
-            place-items: center;
-
-            .apple1 {
-                width: 500px;
-                height: 370px;
-                margin-left: 0;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 87%;
-                height: 350px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 15px;
-                        padding: 5px 7px;
-                    }
-                }
-
-                .texto-sitio1 {
-                    margin-top: 2rem;
-                }
-                h4 {
-                    margin-top: 1.5rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-        }
-
-        .img2 {
-            display: grid;
-            place-items: center;
-
-            .apple2 {
-                width: 500px;
-                height: 370px;
-                margin-right: 1.1rem;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 89.7%;
-                height: 350px;
-                margin-right: 1.1rem;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 15px;
-                        padding: 5px 7px;
-                    }
-                }
-
-                .texto-sitio1 {
-                    margin-top: 2rem;
-                }
-                h4 {
-                    margin-top: 1.5rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-        }
-
-        .img3 {
-            display: grid;
-            place-items: center;
-
-            .apple3 {
-                width: 500px;
-                height: 370px;
-                margin-left: 0;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 87%;
-                height: 350px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 15px;
-                        padding: 5px 7px;
-                    }
-                }
-
-                .texto-sitio1 {
-                    margin-top: 2rem;
-                }
-                h4 {
-                    margin-top: 1.5rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-
-        }
-
-    }
-
-
-}
-
-
-
 
 
 // MEDIA QUERYS - 480PX
 
-@media screen and (max-width: 480px) {
-
-    // MENÚ HAMBURGUESA - 480px
+@media screen and (max-width: 440px) {
 
     .contain {
-        width: 450px;
-    }
-        nav {
-            height: 70px;
-            
-            .logo {
-                font-size: 30px;
-            }
-            .abrir-menu {
-                display: block;
-                font-size: 35px;
-            } 
-            .menu-links {
-                flex-direction: column;
-                align-items: end;
-                position: fixed;
-                top: 70px;
-                right: 0;
-                padding: 1rem;
-                
-                background-color: #A5B1E0;
-
-                height: calc(100% - 70px);
-                margin: 0;
-
-                right: 100%;
-                transition: right 0.3s;
-            }
-            .nav-visible {
-                right: 0;
-            }
-        }
-    
-    
-
-    // SECCION 1 - INDEX - 480PX
-
-    .inicio {
-
-        .contain-inicio {
-        flex-direction: column;
-        gap: 3rem;
-        }
-        
-        img {
-            width: 250px;
-        }
-        .sec-img-redes {
-            padding: 10rem;     
-        }
-        .sec1-redes {
-            font-size: 40px;
-        }
-        .sec1-texto {
-            margin-top: 0rem;
-            text-align: center;
-            h2 {
-                font-size: 50px;
-            }
-            h3 {
-                font-size: 34px;
-            }
-            p{
-                font-size: 24px;
-            }
-        }
-    }
-
-
-    // SECCION 2 - SOBRE MI - 480PX
-
-    .sobre-mi {
-
-        h2 {
-            font-size: 40px;
-            margin-top: 10rem;
-        }
-
-        .seccion2 {
-            width: 100%;
-            height: 800px;
-            flex-direction: column;
-            margin: auto;
-            margin-top: -1rem;
-            margin-bottom: 6rem;
-        
-            p {
-                font-size: 19px;
-            }
-            .intereses {
-                grid-template-columns: repeat(3,auto);
-                gap: 0 20px 20px 20px;
-
-                .h2-intereses {
-                    grid-column: 1/4;
-                    text-align: center;
-                    margin-top: -7rem;
-                    margin-bottom: 0px;
-                }
-                .inter {
-                    font-size: 22px;
-                }
-            }
-        }
-    }
-
-    // SECCION 3 - HABILIDADES - 480PX
-
-    .habilidades {
-        height: 1200px;
-
-        h2 {    
-            font-size: 40px;
-            padding-top: 6rem;
-            margin-bottom: 5rem;
-        }
-
-        .habilidad {
-            grid-template-columns: repeat(1,auto);
-
-            .progreso-barra {
-                width: 445px;
-            }
-        }
-        .aptitud-text {
-            text-align: center;
-            margin: auto;
-            margin-top: 2rem;
-            width: 100%;
-            padding: 1rem;    
-        }
-        .aptitudes {
-            gap: 2.7rem;
-            display: grid;
-            grid-template-columns: repeat(3, auto);
-            margin-top: 3rem;     
-
-            img {
-                width: 60px;
-            }
-            p {
-                font-size: 15px;
-            }
-        }
-    }
-
-
-    // SECCION 4 PROYECTOS - 480PX
-
-    .proyectos {
-        min-height: 100vh;
-
-        h2 {
-            font-size: 40px;
-            padding-top: 6rem;
-        }
-
-        .img1 {
-
-            .apple1 {
-                width: 100%;
-                height: 300px;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 100%;
-                height: 320px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-                margin: auto;
-                
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;          
-                }
-
-                h3 {
-                    margin-top: 0px;
-                }
-
-                .texto-sitio1 {
-                    margin-top: 1rem;
-                    font-size: 20px;
-                }
-                h4 {
-                    margin-top: 1.2rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-        }
-
-        .img2 {
-
-            .apple2 {
-                width: 100%;
-                height: 300px;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-                margin: auto;
-            }
-            .cartel {
-                width: 100%;
-                height: 320px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-                margin: auto;
-                
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                }
-
-                h3 {
-                    margin-top: 0px;
-                }
-                .texto-sitio1 {
-                    margin-top: 1rem;
-                    font-size: 20px;
-                }
-                h4 {
-                    margin-top: 1.2rem;
-                }
-                .visitar {
-                    margin-top: 2.5rem;
-                }
-            }
-        }
-
-        .img3 {
-            display: grid;
-            place-items: center;
-
-            .apple3 {
-                width: 100%;
-                height: 300px;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-            }
-            .cartel {
-                width: 100%;
-                height: 320px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-                
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 15px;
-                        padding: 5px 7px;
-                    }
-                }
-
-                h3 {
-                    margin-top: 0px;
-                }
-
-                .texto-sitio1 {
-                    margin-top: 1rem;
-                    font-size: 20px;
-                }
-                h4 {
-                    margin-top: 1.2rem;
-                }
-                .visitar {
-                    margin-top: 3.7rem;
-                }
-            }
-
-        }
-
-    }
-
-
-}
-
-
-
-
-
-// MEDIA QUERYS - 320PX - 360px
-
-@media screen and (min-width: 320px) and (max-width: 360px) {
-
-    .contain {
-        width: 100%;
+        width: 92%;
     }
     header {
     
@@ -1625,24 +906,23 @@ nav {
             height: 70px;
             
             .logo {
-                font-size: 25px;
+                font-size: 1.5rem;
             }
             
             .contain-nav {
-                justify-content: space-around;
-                gap: 5rem;
+                justify-content: space-between;
             }
 
             .abrir-menu {
                 display: block;
-                font-size: 35px;
+                font-size: 2rem;
             } 
             .menu-links {
                 flex-direction: column;
                 align-items: end;
                 position: fixed;
                 top: 70px;
-                right: 0;
+                left: 0;
                 padding: 1rem;
                 
                 background-color: #A5B1E0;
@@ -1650,11 +930,11 @@ nav {
                 height: calc(100% - 70px);
                 margin: 0;
 
-                right: 100%;
-                transition: right 0.3s;
+                left: 100%;
+                transition: left 0.3s;
             }
             .nav-visible {
-                right: 0;
+                left: 0;
             }
         }
     }
@@ -1664,36 +944,41 @@ nav {
     // SECCION 1 - INDEX - 320PX - 360PX
 
     .inicio {
-        height: 900px;
 
         .contain-inicio {
         flex-direction: column;
         gap: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
         }
         
         img {
-            width: 200px;
+            width: 250px;
+            
         }
         .sec1-img-redes {
             padding: 1.5rem;     
+            margin-top: 3rem;
         }
         .sec1-redes {
-            font-size: 30px;
+            font-size: 1.9rem;
         }
         .sec1-texto {
             margin-top: 0rem;
             text-align: center;
             h2 {
-                font-size: 40px;
+                font-size: 3rem;
             }
             h3 {
-                font-size: 24px;
+                font-size: 2rem;
             }
             p{
-                font-size: 16px;
+                font-size: 1.4rem;
             }
             a {
-                font-size: 18px;
+                font-size: 1.3rem;
+                margin-right: 8px;
+                margin-left: 8px;
             }
         }
     }
@@ -1704,19 +989,23 @@ nav {
     .sobre-mi {
 
         h2 {
-            font-size: 30px;
-            margin-top: 10rem;
+            font-size: 2rem;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
         }
 
         .seccion2 {
-            width: 93%;
-            height: 800px;
+            width: 100%;
+            min-height: 770px;
             flex-direction: column;
-            margin-top: -1rem;
-            margin-bottom: 6rem;
+            margin: auto;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            padding: 1.3rem;
         
             p {
-                font-size: 17px;
+                font-size: 18px;
+                width: 100%;
             }
             .intereses {
                 grid-template-columns: repeat(3,auto);
@@ -1725,7 +1014,353 @@ nav {
                 .h2-intereses {
                     grid-column: 1/4;
                     text-align: center;
-                    margin-top: -2rem;
+                    margin-top: 1rem;
+                    margin-bottom: 0px;
+                    font-size: 30px;
+                }
+                .inter {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    // SECCION 3 - HABILIDADES - 320PX - 360PX
+
+    .habilidades {
+        
+
+        h2 {    
+            font-size: 2rem;
+            padding-top: 6rem;
+            margin-bottom: 5rem;
+            margin: auto;
+        }
+
+        .habilidad {
+            grid-template-columns: repeat(1,auto);
+            justify-content: center;
+
+            .progreso-barra {
+                width: 21.7rem;
+                margin: auto;
+            }
+        }
+        .aptitud-text {
+            text-align: center;
+            margin: auto;
+            margin-top: 2rem;
+            width: 100%;
+            padding: 1rem; 
+            font-size: 25px;   
+        }
+        .aptitudes {
+            gap: 1rem;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: space-around;
+            margin-top: 3rem; 
+            padding-bottom: 3rem;   
+
+            img {
+                width: 43px;
+            }
+            p {
+                font-size: 19px;
+            }
+        }
+    }
+
+
+    // SECCION 4 PROYECTOS - 320PX - 360PX
+
+    .proyectos {
+    
+
+        h2 {
+            font-size: 2rem;
+            padding-top: 6rem;
+        }
+
+        .img1 {
+            flex-direction: column;
+
+            .apple1 {
+                width: 100%;
+                height: 250px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 12px;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 20px;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 16px;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 18px;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .img2 {
+            flex-direction: column;
+
+            .apple2 {
+                width: 100%;
+                height: 250px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 12px;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 20px;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 16px;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 18px;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .img3 {
+            flex-direction: column;
+
+            .apple3 {
+                width: 100%;
+                height: 250px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    p {
+                        font-size: 12px;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 20px;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 16px;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 18px;
+                }
+                .visitar {
+                    margin-top: 1.7rem;
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    // PARTE 5- CONTACTO 
+
+    .contacto {
+        .contain {
+            h2 {
+                font-size: 2rem;
+        }
+            p {
+                font-size: 18px;
+                text-align: center;
+            }
+            .button-contacto {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+
+// MEDIA QUERYS - 320PX - 360px
+
+@media screen and (max-width: 380px) {
+
+    .contain {
+        width: 100%;
+    }
+    header {
+    
+        nav {
+            height: 70px;
+            
+            .logo {
+                font-size: 1.5rem;
+            }
+            
+            .contain-nav {
+                justify-content: space-around;
+                gap: 5rem;
+            }
+
+            .abrir-menu {
+                display: block;
+                font-size: 2rem;
+            } 
+            .menu-links {
+                flex-direction: column;
+                align-items: end;
+                position: fixed;
+                top: 70px;
+                left: 0;
+                padding: 1rem;
+                
+                background-color: #A5B1E0;
+
+                height: calc(100% - 70px);
+                margin: 0;
+
+                left: 100%;
+                transition: left 0.3s;
+            }
+            .nav-visible {
+                left: 0;
+            }
+        }
+    }
+    
+    
+
+    // SECCION 1 - INDEX - 320PX - 360PX
+
+    .inicio {
+
+        .contain-inicio {
+        flex-direction: column;
+        gap: 3rem;
+        }
+        
+        img {
+            width: 200px;
+            
+        }
+        .sec1-img-redes {
+            padding: 1.5rem;     
+            margin-top: 3rem;
+        }
+        .sec1-redes {
+            font-size: 1.9rem;
+        }
+        .sec1-texto {
+            margin-top: 0rem;
+            text-align: center;
+            h2 {
+                font-size: 2.5rem;
+            }
+            h3 {
+                font-size: 1.7rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+            a {
+                font-size: 1.1rem;
+                margin-right: 8px;
+                margin-left: 8px;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SOBRE MI - 320PX - 360PX
+
+    .sobre-mi {
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+        }
+
+        .seccion2 {
+            width: 93%;
+            min-height: 770px;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            padding: 1.3rem;
+        
+            p {
+                font-size: 17px;
+                width: 100%;
+            }
+            .intereses {
+                grid-template-columns: repeat(3,auto);
+                gap: 0 20px 20px 20px;
+
+                .h2-intereses {
+                    grid-column: 1/4;
+                    text-align: center;
+                    margin-top: 1.5rem;
                     margin-bottom: 0px;
                     font-size: 30px;
                 }
@@ -1739,7 +1374,7 @@ nav {
     // SECCION 3 - HABILIDADES - 320PX - 360PX
 
     .habilidades {
-        height: 1200px;
+        
 
         h2 {    
             font-size: 30px;
@@ -1750,16 +1385,18 @@ nav {
 
         .habilidad {
             grid-template-columns: repeat(1,auto);
+            justify-content: center;
 
             .progreso-barra {
-                width: 295px;
+                width: 18rem;
+                margin: auto;
             }
         }
         .aptitud-text {
             text-align: center;
             margin: auto;
             margin-top: 2rem;
-            width: 90%;
+            width: 87%;
             padding: 1rem; 
             font-size: 25px;   
         }
@@ -1768,7 +1405,8 @@ nav {
             display: grid;
             grid-template-columns: repeat(2, auto);
             justify-content: space-around;
-            margin-top: 3rem;     
+            margin-top: 3rem; 
+            padding-bottom: 3rem;   
 
             img {
                 width: 40px;
@@ -1783,7 +1421,7 @@ nav {
     // SECCION 4 PROYECTOS - 320PX - 360PX
 
     .proyectos {
-        min-height: 100vh;
+    
 
         h2 {
             font-size: 30px;
@@ -1791,15 +1429,17 @@ nav {
         }
 
         .img1 {
+            flex-direction: column;
 
             .apple1 {
                 width: 93%;
                 height: 200px;
                 border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
             }
             .cartel {
                 width: 93%;
-                height: 290px;
+                height: 270px;
                 border-radius: 0rem 0rem 0.5rem 0.5rem;
                 margin: auto;
                 
@@ -1818,15 +1458,15 @@ nav {
                 }
 
                 .texto-sitio1 {
-                    margin-top: 1rem;
+                    margin-top: 0rem;
                     font-size: 16px;
                 }
                 h4 {
-                    margin-top: 1.2rem;
+                    margin-top: 0.5rem;
                     font-size: 18px;
                 }
                 .visitar {
-                    margin-top: 2.5rem;
+                    margin-top: 1.5rem;
                     a {
                         font-size: 20px;
                     }
@@ -1835,6 +1475,7 @@ nav {
         }
 
         .img2 {
+            flex-direction: column;
 
             .apple2 {
                 width: 93%;
@@ -1844,7 +1485,7 @@ nav {
             }
             .cartel {
                 width: 93%;
-                height: 290px;
+                height: 270px;
                 border-radius: 0rem 0rem 0.5rem 0.5rem;
                 margin: auto;
                 
@@ -1863,15 +1504,15 @@ nav {
                 }
 
                 .texto-sitio1 {
-                    margin-top: 1rem;
+                    margin-top: 0rem;
                     font-size: 16px;
                 }
                 h4 {
-                    margin-top: 1.2rem;
+                    margin-top: 0.5rem;
                     font-size: 18px;
                 }
                 .visitar {
-                    margin-top: 2.5rem;
+                    margin-top: 1.5rem;
                     a {
                         font-size: 20px;
                     }
@@ -1880,18 +1521,19 @@ nav {
         }
 
         .img3 {
-            display: grid;
-            place-items: center;
+            flex-direction: column;
 
             .apple3 {
                 width: 93%;
                 height: 200px;
                 border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
             }
             .cartel {
                 width: 93%;
-                height: 290px;
+                height: 270px;
                 border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
                 
 
                 .grid-proyecto {
@@ -1908,19 +1550,36 @@ nav {
                 }
 
                 .texto-sitio1 {
-                    margin-top: 1rem;
+                    margin-top: 0rem;
                     font-size: 16px;
                 }
                 h4 {
-                    margin-top: 1.2rem;
+                    margin-top: 0.5rem;
                     font-size: 18px;
                 }
                 .visitar {
-                    margin-top: 2.5rem;
+                    margin-top: 1.7rem;
                     a {
                         font-size: 20px;
                     }
                 }
+            }
+        }
+    }
+
+    // PARTE 5- CONTACTO 
+
+    .contacto {
+        .contain {
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                text-align: center;
+            }
+            .button-contacto {
+                flex-direction: column;
             }
         }
     }

@@ -216,68 +216,9 @@ nav {
     .habilidades .habilidad span {
       font-family: var(--font-text); }
     .habilidades .habilidad .progreso-barra {
-      background-color: #A5B1E0;
+      background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
       width: 733px;
       height: 10px; }
-      .habilidades .habilidad .progreso-barra div {
-        height: 10px;
-        border-radius: 5px;
-        width: 0%;
-        background-color: antiquewhite; }
-        .habilidades .habilidad .progreso-barra div span {
-          height: 40px;
-          width: 40px;
-          border-radius: 50%;
-          background-color: antiquewhite;
-          float: right;
-          margin-top: -15px;
-          margin-right: -20px;
-          color: black;
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-  .habilidades .html {
-    background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
-    animation: html 1s linear forwards; }
-  .habilidades .css {
-    background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
-    animation: css 1s linear forwards; }
-  .habilidades .javascript {
-    background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
-    animation: javascript 1s linear forwards; }
-  .habilidades .bootstrap {
-    background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
-    animation: bootstrap 1s linear forwards; }
-  .habilidades .sass {
-    background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
-    animation: sass 1s linear forwards; }
-  .habilidades .git {
-    background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
-    animation: git 1s linear forwards; }
-
-@keyframes html {
-  100% {
-    width: 90%; } }
-
-@keyframes css {
-  100% {
-    width: 90%; } }
-
-@keyframes javascript {
-  100% {
-    width: 70%; } }
-
-@keyframes bootstrap {
-  100% {
-    width: 75%; } }
-
-@keyframes sass {
-  100% {
-    width: 75%; } }
-
-@keyframes git {
-  100% {
-    width: 65%; } }
   .habilidades .aptitud-text {
     font-size: 30px;
     font-family: var(--font-tittle);
@@ -303,7 +244,7 @@ nav {
   .proyectos h2 {
     text-align: center;
     font-family: var(--font-tittle);
-    font-size: 70px;
+    font-size: 60px;
     background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -525,621 +466,269 @@ nav {
           background-clip: text;
           -webkit-text-fill-color: transparent; }
 
-@media screen and (max-width: 768px) {
-  header nav {
-    gap: 12.2rem;
-    height: 70px; }
-    header nav .logo {
-      font-size: 40px; }
-    header nav .abrir-menu {
-      display: block;
-      font-size: 40px; }
-    header nav .menu-links {
-      flex-direction: column;
-      align-items: end;
-      position: fixed;
-      top: 70px;
-      right: 0;
-      padding: 1rem;
-      background-color: #A5B1E0;
-      height: calc(100% - 70px);
-      margin: 0;
-      right: 100%;
-      transition: right 0.3s; }
-    header nav .nav-visible {
-      right: 0; }
-  .inicio {
+.contacto {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--fondo-1);
+  display: flex;
+  justify-content: center; }
+  .contacto .contain {
+    display: flex;
     flex-direction: column;
-    gap: 3rem;
-    height: 1270px;
-    margin-top: -2rem; }
-    .inicio img {
-      width: 350px; }
-    .inicio .sec-img-redes {
-      padding: 10rem; }
-    .inicio .sec1-redes {
-      font-size: 40px; }
-    .inicio .sec1-texto {
-      margin-top: 0rem;
-      text-align: center; }
-      .inicio .sec1-texto h2 {
-        font-size: 65px; }
-      .inicio .sec1-texto h3 {
-        font-size: 46px; }
-      .inicio .sec1-texto p {
-        font-size: 36px; }
-      .inicio .sec1-texto a {
-        margin: 0px 10px 0px 10px; }
-  .sobre-mi {
-    height: 1000px; }
-    .sobre-mi h2 {
-      font-size: 55px;
-      margin-top: 1rem; }
-    .sobre-mi .seccion2 {
-      width: 82.5%;
-      font-size: 20px;
-      flex-direction: column;
-      padding: 1.5rem;
-      margin-top: -8rem;
-      margin-left: 0.3rem; }
-      .sobre-mi .seccion2 p {
-        width: 100%;
-        font-size: 22px; }
-      .sobre-mi .seccion2 .intereses {
-        grid-template-columns: repeat(4, auto); }
-        .sobre-mi .seccion2 .intereses .h2-intereses {
-          grid-column: 1/5;
-          text-align: center;
-          margin-top: 5.5rem;
-          margin-bottom: 0.7rem; }
-  .habilidades {
-    height: 1330px; }
-    .habilidades h2 {
-      font-size: 55px;
-      margin-left: -0.4rem; }
-    .habilidades .habilidad {
-      grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
+    .contacto .contain h2 {
+      font-family: var(--font-tittle);
+      font-size: 60px;
+      background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .contacto .contain p {
+      color: white;
+      font-size: 30px;
+      font-family: var(--font-text); }
+    .contacto .contain .button-contacto {
+      display: flex;
+      gap: 5rem; }
+    .contacto .contain .btn {
+      display: flex;
       justify-content: center;
-      margin-left: 0; }
-      .habilidades .habilidad .progreso-barra {
-        width: 630px;
-        margin-left: 3px; }
-    .habilidades .aptitud-text {
-      text-align: center;
-      margin-left: 4.5rem;
-      margin-top: 3.5rem;
-      width: 81.9%; }
-    .habilidades .aptitudes {
-      gap: 4rem;
-      display: grid;
-      grid-template-columns: repeat(3, auto);
-      margin-top: 3rem; }
-      .habilidades .aptitudes img {
-        width: 80px; }
-      .habilidades .aptitudes p {
-        font-size: 20px; }
-  .proyectos {
-    height: 100%; }
-    .proyectos h2 {
-      font-size: 50px; }
-    .proyectos .img1 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img1 .apple1 {
-        width: 632px;
-        height: 470px;
-        margin-left: 3px;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img1 .cartel {
-        width: 82.5%;
-        height: 350px;
-        margin-left: 4px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img1 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img1 .cartel .grid-proyecto p {
-            font-size: 15px;
-            padding: 5px 7px; }
-        .proyectos .img1 .cartel .texto-sitio1 {
-          margin-top: 2rem; }
-        .proyectos .img1 .cartel h4 {
-          margin-top: 1.5rem; }
-        .proyectos .img1 .cartel .visitar {
-          margin-top: 2.5rem; }
-    .proyectos .img2 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img2 .apple2 {
-        width: 632px;
-        height: 470px;
-        margin-right: 4.1rem;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img2 .cartel {
-        width: 84%;
-        height: 350px;
-        margin-right: 1.1rem;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img2 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img2 .cartel .grid-proyecto p {
-            font-size: 15px;
-            padding: 5px 7px; }
-        .proyectos .img2 .cartel .texto-sitio1 {
-          margin-top: 2rem; }
-        .proyectos .img2 .cartel h4 {
-          margin-top: 1.5rem; }
-        .proyectos .img2 .cartel .visitar {
-          margin-top: 2.5rem; }
-    .proyectos .img3 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img3 .apple3 {
-        width: 500px;
-        height: 370px;
-        margin-left: 0;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img3 .cartel {
-        width: 87%;
-        height: 350px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img3 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img3 .cartel .grid-proyecto p {
-            font-size: 15px;
-            padding: 5px 7px; }
-        .proyectos .img3 .cartel .texto-sitio1 {
-          margin-top: 2rem; }
-        .proyectos .img3 .cartel h4 {
-          margin-top: 1.5rem; }
-        .proyectos .img3 .cartel .visitar {
-          margin-top: 2.5rem; } }
-
-@media screen and (max-width: 576px) {
-  header nav {
-    gap: 12.2rem;
-    height: 70px; }
-    header nav .logo {
-      font-size: 30px; }
-    header nav .abrir-menu {
-      display: block;
-      font-size: 35px; }
-    header nav .menu-links {
-      flex-direction: column;
-      align-items: end;
+      align-items: center;
+      width: 15rem;
+      height: 4rem;
+      background-size: 300% 300%;
+      backdrop-filter: blur(1rem);
+      border-radius: 5rem;
+      transition: 0.5s;
+      animation: gradient_301 5s ease infinite;
+      border: double 4px transparent;
+      background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #ffdb3b 10%, #FE53BB 45%, #8F51EA 67%, #0044ff 87%);
+      background-origin: border-box;
+      background-clip: content-box, border-box; }
+    .contacto .contain #container-stars {
       position: fixed;
-      top: 70px;
-      right: 0;
-      padding: 1rem;
-      background-color: #A5B1E0;
-      height: calc(100% - 70px);
-      margin: 0;
-      right: 100%;
-      transition: right 0.3s; }
-    header nav .nav-visible {
-      right: 0; }
-  .inicio {
-    flex-direction: column;
-    gap: 3rem;
-    height: 1080px;
-    margin-top: -1.5rem; }
-    .inicio img {
-      width: 250px; }
-    .inicio .sec-img-redes {
-      padding: 10rem; }
-    .inicio .sec1-redes {
-      font-size: 40px; }
-    .inicio .sec1-texto {
-      margin-top: 0rem;
-      text-align: center; }
-      .inicio .sec1-texto h2 {
-        font-size: 53px; }
-      .inicio .sec1-texto h3 {
-        font-size: 34px; }
-      .inicio .sec1-texto p {
-        font-size: 26px; }
-      .inicio .sec1-texto a {
-        margin: 0px 10px 0px 10px; }
-  .sobre-mi {
-    height: 1000px; }
-    .sobre-mi h2 {
-      font-size: 50px;
-      margin-top: 2rem; }
-    .sobre-mi .seccion2 {
-      width: 87.5%;
-      font-size: 20px;
-      flex-direction: column;
-      padding: 1.5rem;
-      margin-top: -6rem; }
-      .sobre-mi .seccion2 p {
-        width: 100%; }
-      .sobre-mi .seccion2 .intereses {
-        grid-template-columns: repeat(3, auto); }
-        .sobre-mi .seccion2 .intereses .h2-intereses {
-          grid-column: 1/4;
-          text-align: center;
-          margin-top: 5.5rem;
-          margin-bottom: 0.7rem; }
-  .habilidades {
-    height: 1300px; }
-    .habilidades h2 {
-      font-size: 50px;
-      margin-left: -1.2rem; }
-    .habilidades .habilidad {
-      grid-template-columns: repeat(1, auto);
-      justify-content: center;
-      margin-left: 0; }
-      .habilidades .habilidad .progreso-barra {
-        width: 500px; }
-    .habilidades .aptitud-text {
-      text-align: center;
-      margin-left: 3.5rem;
-      margin-top: 3.5rem;
-      width: 80%; }
-    .habilidades .aptitudes {
-      gap: 4rem;
-      display: grid;
-      grid-template-columns: repeat(3, auto);
-      margin-top: 3rem; }
-      .habilidades .aptitudes img {
-        width: 70px; }
-      .habilidades .aptitudes p {
-        font-size: 18px; }
-  .proyectos {
-    height: 100%; }
-    .proyectos h2 {
-      font-size: 50px; }
-    .proyectos .img1 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img1 .apple1 {
-        width: 500px;
-        height: 370px;
-        margin-left: 0;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img1 .cartel {
-        width: 87%;
-        height: 350px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img1 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img1 .cartel .grid-proyecto p {
-            font-size: 15px;
-            padding: 5px 7px; }
-        .proyectos .img1 .cartel .texto-sitio1 {
-          margin-top: 2rem; }
-        .proyectos .img1 .cartel h4 {
-          margin-top: 1.5rem; }
-        .proyectos .img1 .cartel .visitar {
-          margin-top: 2.5rem; }
-    .proyectos .img2 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img2 .apple2 {
-        width: 500px;
-        height: 370px;
-        margin-right: 1.1rem;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img2 .cartel {
-        width: 89.7%;
-        height: 350px;
-        margin-right: 1.1rem;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img2 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img2 .cartel .grid-proyecto p {
-            font-size: 15px;
-            padding: 5px 7px; }
-        .proyectos .img2 .cartel .texto-sitio1 {
-          margin-top: 2rem; }
-        .proyectos .img2 .cartel h4 {
-          margin-top: 1.5rem; }
-        .proyectos .img2 .cartel .visitar {
-          margin-top: 2.5rem; }
-    .proyectos .img3 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img3 .apple3 {
-        width: 500px;
-        height: 370px;
-        margin-left: 0;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img3 .cartel {
-        width: 87%;
-        height: 350px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img3 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img3 .cartel .grid-proyecto p {
-            font-size: 15px;
-            padding: 5px 7px; }
-        .proyectos .img3 .cartel .texto-sitio1 {
-          margin-top: 2rem; }
-        .proyectos .img3 .cartel h4 {
-          margin-top: 1.5rem; }
-        .proyectos .img3 .cartel .visitar {
-          margin-top: 2.5rem; } }
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      transition: 0.5s;
+      backdrop-filter: blur(1rem);
+      border-radius: 5rem; }
+    .contacto .contain strong {
+      z-index: 2;
+      font-family: var(--font-text);
+      font-size: 25px;
+      letter-spacing: 5px;
+      color: #FFFFFF;
+      text-shadow: 0 0 4px white;
+      font-weight: 200; }
+    .contacto .contain #glow {
+      position: absolute;
+      display: flex;
+      width: 12rem; }
+    .contacto .contain .circle {
+      width: 100%;
+      height: 30px;
+      filter: blur(2rem);
+      animation: pulse_3011 4s infinite;
+      z-index: -1; }
+    .contacto .contain .circle:nth-of-type(1) {
+      background: rgba(254, 83, 186, 0.636); }
+    .contacto .contain .circle:nth-of-type(2) {
+      background: rgba(142, 81, 234, 0.704); }
+    .contacto .contain .btn:hover #container-stars {
+      z-index: 1;
+      background-color: #212121; }
+    .contacto .contain .btn:hover {
+      transform: scale(1.1); }
+    .contacto .contain .btn:active {
+      border: double 4px #FE53BB;
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      animation: none; }
+    .contacto .contain .btn:active .circle {
+      background: #FE53BB; }
+    .contacto .contain #stars {
+      position: relative;
+      background: transparent;
+      width: 200rem;
+      height: 200rem; }
+    .contacto .contain #stars::after {
+      content: "";
+      position: absolute;
+      top: -10rem;
+      left: -100rem;
+      width: 100%;
+      height: 100%;
+      animation: animStarRotate 90s linear infinite; }
+    .contacto .contain #stars::after {
+      background-image: radial-gradient(#ffffff 1px, transparent 1%);
+      background-size: 50px 50px; }
+    .contacto .contain #stars::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -50%;
+      width: 170%;
+      height: 500%;
+      animation: animStar 60s linear infinite; }
+    .contacto .contain #stars::before {
+      background-image: radial-gradient(#ffffff 1px, transparent 1%);
+      background-size: 50px 50px;
+      opacity: 0.5; }
 
-@media screen and (max-width: 480px) {
+@keyframes animStar {
+  from {
+    transform: translateY(0); }
+  to {
+    transform: translateY(-135rem); } }
+
+@keyframes animStarRotate {
+  from {
+    transform: rotate(360deg); }
+  to {
+    transform: rotate(0); } }
+
+@keyframes gradient_301 {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes pulse_3011 {
+  0% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7); }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); }
+  100% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); } }
+
+@media screen and (max-width: 440px) {
   .contain {
-    width: 450px; }
-  nav {
+    width: 92%; }
+  header nav {
     height: 70px; }
-    nav .logo {
-      font-size: 30px; }
-    nav .abrir-menu {
+    header nav .logo {
+      font-size: 1.5rem; }
+    header nav .contain-nav {
+      justify-content: space-between; }
+    header nav .abrir-menu {
       display: block;
-      font-size: 35px; }
-    nav .menu-links {
+      font-size: 2rem; }
+    header nav .menu-links {
       flex-direction: column;
       align-items: end;
       position: fixed;
       top: 70px;
-      right: 0;
+      left: 0;
       padding: 1rem;
       background-color: #A5B1E0;
       height: calc(100% - 70px);
       margin: 0;
-      right: 100%;
-      transition: right 0.3s; }
-    nav .nav-visible {
-      right: 0; }
+      left: 100%;
+      transition: left 0.3s; }
+    header nav .nav-visible {
+      left: 0; }
   .inicio .contain-inicio {
     flex-direction: column;
-    gap: 3rem; }
+    gap: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
   .inicio img {
     width: 250px; }
-  .inicio .sec-img-redes {
-    padding: 10rem; }
+  .inicio .sec1-img-redes {
+    padding: 1.5rem;
+    margin-top: 3rem; }
   .inicio .sec1-redes {
-    font-size: 40px; }
+    font-size: 1.9rem; }
   .inicio .sec1-texto {
     margin-top: 0rem;
     text-align: center; }
     .inicio .sec1-texto h2 {
-      font-size: 50px; }
+      font-size: 3rem; }
     .inicio .sec1-texto h3 {
-      font-size: 34px; }
+      font-size: 2rem; }
     .inicio .sec1-texto p {
-      font-size: 24px; }
+      font-size: 1.4rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.3rem;
+      margin-right: 8px;
+      margin-left: 8px; }
   .sobre-mi h2 {
-    font-size: 40px;
-    margin-top: 10rem; }
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem; }
   .sobre-mi .seccion2 {
     width: 100%;
-    height: 800px;
+    min-height: 770px;
     flex-direction: column;
     margin: auto;
-    margin-top: -1rem;
-    margin-bottom: 6rem; }
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
     .sobre-mi .seccion2 p {
-      font-size: 19px; }
+      font-size: 18px;
+      width: 100%; }
     .sobre-mi .seccion2 .intereses {
       grid-template-columns: repeat(3, auto);
       gap: 0 20px 20px 20px; }
       .sobre-mi .seccion2 .intereses .h2-intereses {
         grid-column: 1/4;
         text-align: center;
-        margin-top: -7rem;
-        margin-bottom: 0px; }
-      .sobre-mi .seccion2 .intereses .inter {
-        font-size: 22px; }
-  .habilidades {
-    height: 1200px; }
-    .habilidades h2 {
-      font-size: 40px;
-      padding-top: 6rem;
-      margin-bottom: 5rem; }
-    .habilidades .habilidad {
-      grid-template-columns: repeat(1, auto); }
-      .habilidades .habilidad .progreso-barra {
-        width: 445px; }
-    .habilidades .aptitud-text {
-      text-align: center;
-      margin: auto;
-      margin-top: 2rem;
-      width: 100%;
-      padding: 1rem; }
-    .habilidades .aptitudes {
-      gap: 2.7rem;
-      display: grid;
-      grid-template-columns: repeat(3, auto);
-      margin-top: 3rem; }
-      .habilidades .aptitudes img {
-        width: 60px; }
-      .habilidades .aptitudes p {
-        font-size: 15px; }
-  .proyectos {
-    min-height: 100vh; }
-    .proyectos h2 {
-      font-size: 40px;
-      padding-top: 6rem; }
-    .proyectos .img1 .apple1 {
-      width: 100%;
-      height: 300px;
-      border-radius: 0.5rem 0.5rem 0rem 0rem; }
-    .proyectos .img1 .cartel {
-      width: 100%;
-      height: 320px;
-      border-radius: 0rem 0rem 0.5rem 0.5rem;
-      margin: auto; }
-      .proyectos .img1 .cartel .grid-proyecto {
-        grid-template-columns: repeat(3, auto);
-        gap: 15px; }
-      .proyectos .img1 .cartel h3 {
-        margin-top: 0px; }
-      .proyectos .img1 .cartel .texto-sitio1 {
         margin-top: 1rem;
-        font-size: 20px; }
-      .proyectos .img1 .cartel h4 {
-        margin-top: 1.2rem; }
-      .proyectos .img1 .cartel .visitar {
-        margin-top: 2.5rem; }
-    .proyectos .img2 .apple2 {
-      width: 100%;
-      height: 300px;
-      border-radius: 0.5rem 0.5rem 0rem 0rem;
-      margin: auto; }
-    .proyectos .img2 .cartel {
-      width: 100%;
-      height: 320px;
-      border-radius: 0rem 0rem 0.5rem 0.5rem;
-      margin: auto; }
-      .proyectos .img2 .cartel .grid-proyecto {
-        grid-template-columns: repeat(3, auto);
-        gap: 15px; }
-      .proyectos .img2 .cartel h3 {
-        margin-top: 0px; }
-      .proyectos .img2 .cartel .texto-sitio1 {
-        margin-top: 1rem;
-        font-size: 20px; }
-      .proyectos .img2 .cartel h4 {
-        margin-top: 1.2rem; }
-      .proyectos .img2 .cartel .visitar {
-        margin-top: 2.5rem; }
-    .proyectos .img3 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img3 .apple3 {
-        width: 100%;
-        height: 300px;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img3 .cartel {
-        width: 100%;
-        height: 320px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img3 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img3 .cartel .grid-proyecto p {
-            font-size: 15px;
-            padding: 5px 7px; }
-        .proyectos .img3 .cartel h3 {
-          margin-top: 0px; }
-        .proyectos .img3 .cartel .texto-sitio1 {
-          margin-top: 1rem;
-          font-size: 20px; }
-        .proyectos .img3 .cartel h4 {
-          margin-top: 1.2rem; }
-        .proyectos .img3 .cartel .visitar {
-          margin-top: 3.7rem; } }
-
-@media screen and (min-width: 320px) and (max-width: 360px) {
-  .contain {
-    width: 100%; }
-  header nav {
-    height: 70px; }
-    header nav .logo {
-      font-size: 25px; }
-    header nav .contain-nav {
-      justify-content: space-around;
-      gap: 5rem; }
-    header nav .abrir-menu {
-      display: block;
-      font-size: 35px; }
-    header nav .menu-links {
-      flex-direction: column;
-      align-items: end;
-      position: fixed;
-      top: 70px;
-      right: 0;
-      padding: 1rem;
-      background-color: #A5B1E0;
-      height: calc(100% - 70px);
-      margin: 0;
-      right: 100%;
-      transition: right 0.3s; }
-    header nav .nav-visible {
-      right: 0; }
-  .inicio {
-    height: 900px; }
-    .inicio .contain-inicio {
-      flex-direction: column;
-      gap: 3rem; }
-    .inicio img {
-      width: 200px; }
-    .inicio .sec1-img-redes {
-      padding: 1.5rem; }
-    .inicio .sec1-redes {
-      font-size: 30px; }
-    .inicio .sec1-texto {
-      margin-top: 0rem;
-      text-align: center; }
-      .inicio .sec1-texto h2 {
-        font-size: 40px; }
-      .inicio .sec1-texto h3 {
-        font-size: 24px; }
-      .inicio .sec1-texto p {
-        font-size: 16px; }
-      .inicio .sec1-texto a {
-        font-size: 18px; }
-  .sobre-mi h2 {
-    font-size: 30px;
-    margin-top: 10rem; }
-  .sobre-mi .seccion2 {
-    width: 93%;
-    height: 800px;
-    flex-direction: column;
-    margin-top: -1rem;
-    margin-bottom: 6rem; }
-    .sobre-mi .seccion2 p {
-      font-size: 17px; }
-    .sobre-mi .seccion2 .intereses {
-      grid-template-columns: repeat(3, auto);
-      gap: 0 20px 20px 20px; }
-      .sobre-mi .seccion2 .intereses .h2-intereses {
-        grid-column: 1/4;
-        text-align: center;
-        margin-top: -2rem;
         margin-bottom: 0px;
         font-size: 30px; }
       .sobre-mi .seccion2 .intereses .inter {
-        font-size: 15px; }
-  .habilidades {
-    height: 1200px; }
-    .habilidades h2 {
-      font-size: 30px;
-      padding-top: 6rem;
-      margin-bottom: 5rem;
+        font-size: 18px; }
+  .habilidades h2 {
+    font-size: 2rem;
+    padding-top: 6rem;
+    margin-bottom: 5rem;
+    margin: auto; }
+  .habilidades .habilidad {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center; }
+    .habilidades .habilidad .progreso-barra {
+      width: 21.7rem;
       margin: auto; }
-    .habilidades .habilidad {
-      grid-template-columns: repeat(1, auto); }
-      .habilidades .habilidad .progreso-barra {
-        width: 295px; }
-    .habilidades .aptitud-text {
-      text-align: center;
-      margin: auto;
-      margin-top: 2rem;
-      width: 90%;
-      padding: 1rem;
-      font-size: 25px; }
-    .habilidades .aptitudes {
-      gap: 1rem;
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      justify-content: space-around;
-      margin-top: 3rem; }
-      .habilidades .aptitudes img {
-        width: 40px; }
-      .habilidades .aptitudes p {
-        font-size: 16px; }
-  .proyectos {
-    min-height: 100vh; }
-    .proyectos h2 {
-      font-size: 30px;
-      padding-top: 6rem; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 25px; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding-bottom: 3rem; }
+    .habilidades .aptitudes img {
+      width: 43px; }
+    .habilidades .aptitudes p {
+      font-size: 19px; }
+  .proyectos h2 {
+    font-size: 2rem;
+    padding-top: 6rem; }
+  .proyectos .img1 {
+    flex-direction: column; }
     .proyectos .img1 .apple1 {
-      width: 93%;
-      height: 200px;
-      border-radius: 0.5rem 0.5rem 0rem 0rem; }
+      width: 100%;
+      height: 250px;
+      border-radius: 0.5rem 0.5rem 0rem 0rem;
+      margin: auto; }
     .proyectos .img1 .cartel {
-      width: 93%;
-      height: 290px;
+      width: 100%;
+      height: 270px;
       border-radius: 0rem 0rem 0.5rem 0.5rem;
       margin: auto; }
       .proyectos .img1 .cartel .grid-proyecto {
@@ -1151,23 +740,25 @@ nav {
         margin-top: 0px;
         font-size: 20px; }
       .proyectos .img1 .cartel .texto-sitio1 {
-        margin-top: 1rem;
+        margin-top: 0rem;
         font-size: 16px; }
       .proyectos .img1 .cartel h4 {
-        margin-top: 1.2rem;
+        margin-top: 0.5rem;
         font-size: 18px; }
       .proyectos .img1 .cartel .visitar {
-        margin-top: 2.5rem; }
+        margin-top: 1.5rem; }
         .proyectos .img1 .cartel .visitar a {
           font-size: 20px; }
+  .proyectos .img2 {
+    flex-direction: column; }
     .proyectos .img2 .apple2 {
-      width: 93%;
-      height: 200px;
+      width: 100%;
+      height: 250px;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
       margin: auto; }
     .proyectos .img2 .cartel {
-      width: 93%;
-      height: 290px;
+      width: 100%;
+      height: 270px;
       border-radius: 0rem 0rem 0.5rem 0.5rem;
       margin: auto; }
       .proyectos .img2 .cartel .grid-proyecto {
@@ -1179,41 +770,255 @@ nav {
         margin-top: 0px;
         font-size: 20px; }
       .proyectos .img2 .cartel .texto-sitio1 {
-        margin-top: 1rem;
+        margin-top: 0rem;
         font-size: 16px; }
       .proyectos .img2 .cartel h4 {
-        margin-top: 1.2rem;
+        margin-top: 0.5rem;
         font-size: 18px; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 2.5rem; }
+        margin-top: 1.5rem; }
         .proyectos .img2 .cartel .visitar a {
           font-size: 20px; }
-    .proyectos .img3 {
-      display: grid;
-      place-items: center; }
-      .proyectos .img3 .apple3 {
-        width: 93%;
-        height: 200px;
-        border-radius: 0.5rem 0.5rem 0rem 0rem; }
-      .proyectos .img3 .cartel {
-        width: 93%;
-        height: 290px;
-        border-radius: 0rem 0rem 0.5rem 0.5rem; }
-        .proyectos .img3 .cartel .grid-proyecto {
-          grid-template-columns: repeat(3, auto);
-          gap: 15px; }
-          .proyectos .img3 .cartel .grid-proyecto p {
-            font-size: 12px; }
-        .proyectos .img3 .cartel h3 {
-          margin-top: 0px;
+  .proyectos .img3 {
+    flex-direction: column; }
+    .proyectos .img3 .apple3 {
+      width: 100%;
+      height: 250px;
+      border-radius: 0.5rem 0.5rem 0rem 0rem;
+      margin: auto; }
+    .proyectos .img3 .cartel {
+      width: 100%;
+      height: 270px;
+      border-radius: 0rem 0rem 0.5rem 0.5rem;
+      margin: auto; }
+      .proyectos .img3 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 15px; }
+        .proyectos .img3 .cartel .grid-proyecto p {
+          font-size: 12px; }
+      .proyectos .img3 .cartel h3 {
+        margin-top: 0px;
+        font-size: 20px; }
+      .proyectos .img3 .cartel .texto-sitio1 {
+        margin-top: 0rem;
+        font-size: 16px; }
+      .proyectos .img3 .cartel h4 {
+        margin-top: 0.5rem;
+        font-size: 18px; }
+      .proyectos .img3 .cartel .visitar {
+        margin-top: 1.7rem; }
+        .proyectos .img3 .cartel .visitar a {
           font-size: 20px; }
-        .proyectos .img3 .cartel .texto-sitio1 {
-          margin-top: 1rem;
-          font-size: 16px; }
-        .proyectos .img3 .cartel h4 {
-          margin-top: 1.2rem;
-          font-size: 18px; }
-        .proyectos .img3 .cartel .visitar {
-          margin-top: 2.5rem; }
-          .proyectos .img3 .cartel .visitar a {
-            font-size: 20px; } }
+  .contacto .contain h2 {
+    font-size: 2rem; }
+  .contacto .contain p {
+    font-size: 18px;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
+@media screen and (max-width: 380px) {
+  .contain {
+    width: 100%; }
+  header nav {
+    height: 70px; }
+    header nav .logo {
+      font-size: 1.5rem; }
+    header nav .contain-nav {
+      justify-content: space-around;
+      gap: 5rem; }
+    header nav .abrir-menu {
+      display: block;
+      font-size: 2rem; }
+    header nav .menu-links {
+      flex-direction: column;
+      align-items: end;
+      position: fixed;
+      top: 70px;
+      left: 0;
+      padding: 1rem;
+      background-color: #A5B1E0;
+      height: calc(100% - 70px);
+      margin: 0;
+      left: 100%;
+      transition: left 0.3s; }
+    header nav .nav-visible {
+      left: 0; }
+  .inicio .contain-inicio {
+    flex-direction: column;
+    gap: 3rem; }
+  .inicio img {
+    width: 200px; }
+  .inicio .sec1-img-redes {
+    padding: 1.5rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 1.9rem; }
+  .inicio .sec1-texto {
+    margin-top: 0rem;
+    text-align: center; }
+    .inicio .sec1-texto h2 {
+      font-size: 2.5rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 1.7rem; }
+    .inicio .sec1-texto p {
+      font-size: 1.1rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.1rem;
+      margin-right: 8px;
+      margin-left: 8px; }
+  .sobre-mi h2 {
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 93%;
+    min-height: 770px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 17px;
+      width: 100%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(3, auto);
+      gap: 0 20px 20px 20px; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/4;
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 0px;
+        font-size: 30px; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 15px; }
+  .habilidades h2 {
+    font-size: 30px;
+    padding-top: 6rem;
+    margin-bottom: 5rem;
+    margin: auto; }
+  .habilidades .habilidad {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center; }
+    .habilidades .habilidad .progreso-barra {
+      width: 18rem;
+      margin: auto; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 87%;
+    padding: 1rem;
+    font-size: 25px; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding-bottom: 3rem; }
+    .habilidades .aptitudes img {
+      width: 40px; }
+    .habilidades .aptitudes p {
+      font-size: 16px; }
+  .proyectos h2 {
+    font-size: 30px;
+    padding-top: 6rem; }
+  .proyectos .img1 {
+    flex-direction: column; }
+    .proyectos .img1 .apple1 {
+      width: 93%;
+      height: 200px;
+      border-radius: 0.5rem 0.5rem 0rem 0rem;
+      margin: auto; }
+    .proyectos .img1 .cartel {
+      width: 93%;
+      height: 270px;
+      border-radius: 0rem 0rem 0.5rem 0.5rem;
+      margin: auto; }
+      .proyectos .img1 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 15px; }
+        .proyectos .img1 .cartel .grid-proyecto p {
+          font-size: 12px; }
+      .proyectos .img1 .cartel h3 {
+        margin-top: 0px;
+        font-size: 20px; }
+      .proyectos .img1 .cartel .texto-sitio1 {
+        margin-top: 0rem;
+        font-size: 16px; }
+      .proyectos .img1 .cartel h4 {
+        margin-top: 0.5rem;
+        font-size: 18px; }
+      .proyectos .img1 .cartel .visitar {
+        margin-top: 1.5rem; }
+        .proyectos .img1 .cartel .visitar a {
+          font-size: 20px; }
+  .proyectos .img2 {
+    flex-direction: column; }
+    .proyectos .img2 .apple2 {
+      width: 93%;
+      height: 200px;
+      border-radius: 0.5rem 0.5rem 0rem 0rem;
+      margin: auto; }
+    .proyectos .img2 .cartel {
+      width: 93%;
+      height: 270px;
+      border-radius: 0rem 0rem 0.5rem 0.5rem;
+      margin: auto; }
+      .proyectos .img2 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 15px; }
+        .proyectos .img2 .cartel .grid-proyecto p {
+          font-size: 12px; }
+      .proyectos .img2 .cartel h3 {
+        margin-top: 0px;
+        font-size: 20px; }
+      .proyectos .img2 .cartel .texto-sitio1 {
+        margin-top: 0rem;
+        font-size: 16px; }
+      .proyectos .img2 .cartel h4 {
+        margin-top: 0.5rem;
+        font-size: 18px; }
+      .proyectos .img2 .cartel .visitar {
+        margin-top: 1.5rem; }
+        .proyectos .img2 .cartel .visitar a {
+          font-size: 20px; }
+  .proyectos .img3 {
+    flex-direction: column; }
+    .proyectos .img3 .apple3 {
+      width: 93%;
+      height: 200px;
+      border-radius: 0.5rem 0.5rem 0rem 0rem;
+      margin: auto; }
+    .proyectos .img3 .cartel {
+      width: 93%;
+      height: 270px;
+      border-radius: 0rem 0rem 0.5rem 0.5rem;
+      margin: auto; }
+      .proyectos .img3 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 15px; }
+        .proyectos .img3 .cartel .grid-proyecto p {
+          font-size: 12px; }
+      .proyectos .img3 .cartel h3 {
+        margin-top: 0px;
+        font-size: 20px; }
+      .proyectos .img3 .cartel .texto-sitio1 {
+        margin-top: 0rem;
+        font-size: 16px; }
+      .proyectos .img3 .cartel h4 {
+        margin-top: 0.5rem;
+        font-size: 18px; }
+      .proyectos .img3 .cartel .visitar {
+        margin-top: 1.7rem; }
+        .proyectos .img3 .cartel .visitar a {
+          font-size: 20px; }
+  .contacto .contain h2 {
+    font-size: 30px; }
+  .contacto .contain p {
+    font-size: 18px;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
