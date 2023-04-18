@@ -887,13 +887,1406 @@ nav {
 
 
 
-// MEDIA QUERYS - 768PX
 
 
-// MEDIA QUERYS - 576PX
+
+//MEDIA QUERYS 992PX
 
 
-// MEDIA QUERYS - 480PX
+@media screen and (max-width: 900px) {
+
+    .contain {
+        width: 95%;
+    }
+    header {
+    
+        nav {
+            height: 70px;
+            
+            .logo {
+                font-size: 1.8rem;
+            }
+            
+            .contain-nav {
+                justify-content: space-between;
+            }
+
+            .abrir-menu {
+                display: block;
+                font-size: 2rem;
+            } 
+            .menu-links {
+                flex-direction: column;
+                align-items: end;
+                position: fixed;
+                top: 70px;
+                left: 0;
+                padding: 1rem;
+                
+                background-color: #120439;
+
+                height: calc(100% - 70px);
+                margin: 0;
+
+                left: 100%;
+                transition: left 0.3s;
+            }
+            .nav-visible {
+                left: 0;
+                box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+            }
+        }
+    }
+    
+    
+
+    // SECCION 1 - INDEX - 540PX
+
+    .inicio {
+
+        .contain-inicio {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        }
+        
+        img {
+            width: 380px;
+            
+        }
+        .sec1-img-redes {
+            padding: 1.5rem;     
+            margin-top: 3rem;
+        }
+        .sec1-redes {
+            font-size: 3rem;
+        }
+        .sec1-texto {
+            margin-top: 0rem;
+            text-align: center;
+            h2 {
+                font-size: 3.5rem;
+            }
+            h3 {
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.8rem;
+            }
+            a {
+                font-size: 1.5rem;
+                margin-right: 2rem;
+                margin-left: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SOBRE MI - 540PX
+
+    .sobre-mi {
+
+        h2 {
+            font-size: 2.6rem;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+        }
+
+        .seccion2 {
+            width: 100%;
+            min-height: 680px;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            padding: 1.3rem;
+        
+            p {
+                font-size: 1.52rem;
+                width: 100%;
+            }
+            .intereses {
+                grid-template-columns: repeat(5,auto);
+                gap: 3rem 1.5rem;
+                margin-bottom: 0.5rem;
+                
+
+                .h2-intereses {
+                    grid-column: 1/6;
+                    text-align: center;
+                    margin-top: 1rem;
+                    margin-bottom: 0px;
+                    font-size: 2.4rem;
+                }
+                .inter {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+
+    // SECCION 3 - HABILIDADES - 540PX
+
+    .habilidades {
+        
+
+        h2 {    
+            font-size: 2.6rem;
+            padding-top: 6rem;
+            margin-bottom: 5rem;
+            margin: auto;
+        }
+
+        .habilidad {
+            grid-template-columns: repeat(1,auto);
+            justify-content: center;
+
+            .progreso-barra {
+                width: 43.9rem;
+                margin: auto;
+            }
+        }
+        .aptitud-text {
+            text-align: center;
+            margin: auto;
+            margin-top: 2rem;
+            width: 100%;
+            padding: 1rem; 
+            font-size: 2rem;   
+        }
+        .aptitudes {
+            gap: 1rem;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            justify-content: space-around;
+            margin-top: 3rem; 
+            padding-bottom: 3rem;   
+
+            img {
+                width: 60px;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+
+    // SECCION 4 PROYECTOS - 540PX
+
+    .proyectos {
+    
+
+        h2 {
+            font-size: 2.6rem;
+            padding-top: 6rem;
+        }
+
+        .img1 {
+            flex-direction: column;
+
+            .apple1 {
+                width: 100%;
+                height: 460px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img2 {
+            flex-direction: column;
+
+            .apple2 {
+                width: 100%;
+                height: 460px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img3 {
+            flex-direction: column;
+
+            .apple3 {
+                width: 100%;
+                height: 460px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // PARTE 5- CONTACTO - 540px
+
+    .contacto {
+        .contain {
+            h2 {
+                font-size: 2.6rem;
+        }
+            p {
+                font-size: 1.3rem;
+                text-align: center;
+            }
+            .button-contacto {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+
+//MEDIA QUERYS - 740PX
+
+
+@media screen and (max-width: 740px) {
+
+    .contain {
+        width: 92%;
+    }
+    header {
+    
+        nav {
+            height: 70px;
+            
+            .logo {
+                font-size: 1.8rem;
+            }
+            
+            .contain-nav {
+                justify-content: space-between;
+            }
+
+            .abrir-menu {
+                display: block;
+                font-size: 2rem;
+            } 
+            .menu-links {
+                flex-direction: column;
+                align-items: end;
+                position: fixed;
+                top: 70px;
+                left: 0;
+                padding: 1rem;
+                
+                background-color: #120439;
+
+                height: calc(100% - 70px);
+                margin: 0;
+
+                left: 100%;
+                transition: left 0.3s;
+            }
+            .nav-visible {
+                left: 0;
+                box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+            }
+        }
+    }
+    
+    
+
+    // SECCION 1 - INDEX - 540PX
+
+    .inicio {
+
+        .contain-inicio {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        }
+        
+        img {
+            width: 330px;
+            
+        }
+        .sec1-img-redes {
+            padding: 1.5rem;     
+            margin-top: 3rem;
+        }
+        .sec1-redes {
+            font-size: 3rem;
+        }
+        .sec1-texto {
+            margin-top: 0rem;
+            text-align: center;
+            h2 {
+                font-size: 3.5rem;
+            }
+            h3 {
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.8rem;
+            }
+            a {
+                font-size: 1.5rem;
+                margin-right: 2rem;
+                margin-left: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SOBRE MI - 540PX
+
+    .sobre-mi {
+
+        h2 {
+            font-size: 2.6rem;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+        }
+
+        .seccion2 {
+            width: 100%;
+            min-height: 770px;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            padding: 1.3rem;
+        
+            p {
+                font-size: 1.42rem;
+                width: 100%;
+            }
+            .intereses {
+                grid-template-columns: repeat(4,auto);
+                gap: 1rem 1.5rem;
+                
+
+                .h2-intereses {
+                    grid-column: 1/5;
+                    text-align: center;
+                    margin-top: 1rem;
+                    margin-bottom: 0px;
+                    font-size: 2.2rem;
+                }
+                .inter {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+
+    // SECCION 3 - HABILIDADES - 540PX
+
+    .habilidades {
+        
+
+        h2 {    
+            font-size: 2.6rem;
+            padding-top: 6rem;
+            margin-bottom: 5rem;
+            margin: auto;
+        }
+
+        .habilidad {
+            grid-template-columns: repeat(1,auto);
+            justify-content: center;
+
+            .progreso-barra {
+                width: 35.5rem;
+                margin: auto;
+            }
+        }
+        .aptitud-text {
+            text-align: center;
+            margin: auto;
+            margin-top: 2rem;
+            width: 100%;
+            padding: 1rem; 
+            font-size: 2rem;   
+        }
+        .aptitudes {
+            gap: 1rem;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            justify-content: space-around;
+            margin-top: 3rem; 
+            padding-bottom: 3rem;   
+
+            img {
+                width: 60px;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+
+    // SECCION 4 PROYECTOS - 540PX
+
+    .proyectos {
+    
+
+        h2 {
+            font-size: 2.6rem;
+            padding-top: 6rem;
+        }
+
+        .img1 {
+            flex-direction: column;
+
+            .apple1 {
+                width: 100%;
+                height: 370px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img2 {
+            flex-direction: column;
+
+            .apple2 {
+                width: 100%;
+                height: 370px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img3 {
+            flex-direction: column;
+
+            .apple3 {
+                width: 100%;
+                height: 370px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // PARTE 5- CONTACTO - 540px
+
+    .contacto {
+        .contain {
+            h2 {
+                font-size: 2.6rem;
+        }
+            p {
+                font-size: 1.3rem;
+                text-align: center;
+            }
+            .button-contacto {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+
+// MEDIA QUERYS - 620PX
+
+@media screen and (max-width: 620px) {
+
+    .contain {
+        width: 92%;
+    }
+    header {
+    
+        nav {
+            height: 70px;
+            
+            .logo {
+                font-size: 1.8rem;
+            }
+            
+            .contain-nav {
+                justify-content: space-between;
+            }
+
+            .abrir-menu {
+                display: block;
+                font-size: 2rem;
+            } 
+            .menu-links {
+                flex-direction: column;
+                align-items: end;
+                position: fixed;
+                top: 70px;
+                left: 0;
+                padding: 1rem;
+                
+                background-color: #120439;
+
+                height: calc(100% - 70px);
+                margin: 0;
+
+                left: 100%;
+                transition: left 0.3s;
+            }
+            .nav-visible {
+                left: 0;
+                box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+            }
+        }
+    }
+    
+    
+
+    // SECCION 1 - INDEX - 540PX
+
+    .inicio {
+
+        .contain-inicio {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        }
+        
+        img {
+            width: 330px;
+            
+        }
+        .sec1-img-redes {
+            padding: 1.5rem;     
+            margin-top: 3rem;
+        }
+        .sec1-redes {
+            font-size: 3rem;
+        }
+        .sec1-texto {
+            margin-top: 0rem;
+            text-align: center;
+            h2 {
+                font-size: 3.5rem;
+            }
+            h3 {
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.8rem;
+            }
+            a {
+                font-size: 1.5rem;
+                margin-right: 2rem;
+                margin-left: 2rem;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SOBRE MI - 540PX
+
+    .sobre-mi {
+
+        h2 {
+            font-size: 2.6rem;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+        }
+
+        .seccion2 {
+            width: 100%;
+            min-height: 770px;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            padding: 1.3rem;
+        
+            p {
+                font-size: 1.33rem;
+                width: 100%;
+            }
+            .intereses {
+                grid-template-columns: repeat(3,auto);
+                gap: 0 25px 25px 25px;
+
+                .h2-intereses {
+                    grid-column: 1/4;
+                    text-align: center;
+                    margin-top: 1rem;
+                    margin-bottom: 0px;
+                    font-size: 2.2rem;
+                }
+                .inter {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+
+    // SECCION 3 - HABILIDADES - 540PX
+
+    .habilidades {
+        
+
+        h2 {    
+            font-size: 2.6rem;
+            padding-top: 6rem;
+            margin-bottom: 5rem;
+            margin: auto;
+        }
+
+        .habilidad {
+            grid-template-columns: repeat(1,auto);
+            justify-content: center;
+
+            .progreso-barra {
+                width: 31rem;
+                margin: auto;
+            }
+        }
+        .aptitud-text {
+            text-align: center;
+            margin: auto;
+            margin-top: 2rem;
+            width: 100%;
+            padding: 1rem; 
+            font-size: 1.8rem;   
+        }
+        .aptitudes {
+            gap: 1rem;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: space-around;
+            margin-top: 3rem; 
+            padding-bottom: 3rem;   
+
+            img {
+                width: 60px;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+
+    // SECCION 4 PROYECTOS - 540PX
+
+    .proyectos {
+    
+
+        h2 {
+            font-size: 2.6rem;
+            padding-top: 6rem;
+        }
+
+        .img1 {
+            flex-direction: column;
+
+            .apple1 {
+                width: 100%;
+                height: 320px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img2 {
+            flex-direction: column;
+
+            .apple2 {
+                width: 100%;
+                height: 320px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img3 {
+            flex-direction: column;
+
+            .apple3 {
+                width: 100%;
+                height: 320px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // PARTE 5- CONTACTO - 540px
+
+    .contacto {
+        .contain {
+            h2 {
+                font-size: 2.6rem;
+        }
+            p {
+                font-size: 1.3rem;
+                text-align: center;
+            }
+            .button-contacto {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+
+// MEDIA QUERYS - 540PX
+
+@media screen and (max-width: 540px) {
+
+    .contain {
+        width: 92%;
+    }
+    header {
+    
+        nav {
+            height: 70px;
+            
+            .logo {
+                font-size: 1.8rem;
+            }
+            
+            .contain-nav {
+                justify-content: space-between;
+            }
+
+            .abrir-menu {
+                display: block;
+                font-size: 2rem;
+            } 
+            .menu-links {
+                flex-direction: column;
+                align-items: end;
+                position: fixed;
+                top: 70px;
+                left: 0;
+                padding: 1rem;
+                
+                background-color: #A5B1E0;
+
+                height: calc(100% - 70px);
+                margin: 0;
+
+                left: 100%;
+                transition: left 0.3s;
+            }
+            .nav-visible {
+                left: 0;
+            }
+        }
+    }
+    
+    
+
+    // SECCION 1 - INDEX - 540PX
+
+    .inicio {
+
+        .contain-inicio {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        }
+        
+        img {
+            width: 290px;
+            
+        }
+        .sec1-img-redes {
+            padding: 1.5rem;     
+            margin-top: 3rem;
+        }
+        .sec1-redes {
+            font-size: 2.2rem;
+        }
+        .sec1-texto {
+            margin-top: 0rem;
+            text-align: center;
+            h2 {
+                font-size: 3.2rem;
+            }
+            h3 {
+                font-size: 2.2rem;
+            }
+            p{
+                font-size: 1.6rem;
+            }
+            a {
+                font-size: 1.3rem;
+                margin-right: 28px;
+                margin-left: 28px;
+            }
+        }
+    }
+
+
+    // SECCION 2 - SOBRE MI - 540PX
+
+    .sobre-mi {
+
+        h2 {
+            font-size: 2.4rem;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+        }
+
+        .seccion2 {
+            width: 100%;
+            min-height: 770px;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            padding: 1.3rem;
+        
+            p {
+                font-size: 1.25rem;
+                width: 100%;
+            }
+            .intereses {
+                grid-template-columns: repeat(3,auto);
+                gap: 0 20px 20px 20px;
+
+                .h2-intereses {
+                    grid-column: 1/4;
+                    text-align: center;
+                    margin-top: 1rem;
+                    margin-bottom: 0px;
+                    font-size: 1.9rem;
+                }
+                .inter {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    // SECCION 3 - HABILIDADES - 540PX
+
+    .habilidades {
+        
+
+        h2 {    
+            font-size: 2.4rem;
+            padding-top: 6rem;
+            margin-bottom: 5rem;
+            margin: auto;
+        }
+
+        .habilidad {
+            grid-template-columns: repeat(1,auto);
+            justify-content: center;
+
+            .progreso-barra {
+                width: 25.5rem;
+                margin: auto;
+            }
+        }
+        .aptitud-text {
+            text-align: center;
+            margin: auto;
+            margin-top: 2rem;
+            width: 100%;
+            padding: 1rem; 
+            font-size: 1.8rem;   
+        }
+        .aptitudes {
+            gap: 1rem;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: space-around;
+            margin-top: 3rem; 
+            padding-bottom: 3rem;   
+
+            img {
+                width: 55px;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+
+    // SECCION 4 PROYECTOS - 540PX
+
+    .proyectos {
+    
+
+        h2 {
+            font-size: 2.4rem;
+            padding-top: 6rem;
+        }
+
+        .img1 {
+            flex-direction: column;
+
+            .apple1 {
+                width: 100%;
+                height: 280px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img2 {
+            flex-direction: column;
+
+            .apple2 {
+                width: 100%;
+                height: 280px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        .img3 {
+            flex-direction: column;
+
+            .apple3 {
+                width: 100%;
+                height: 280px;
+                border-radius: 0.5rem 0.5rem 0rem 0rem;
+                margin: auto;
+            }
+            .cartel {
+                width: 100%;
+                height: 270px;
+                border-radius: 0rem 0rem 0.5rem 0.5rem;
+                margin: auto;
+                
+
+                .grid-proyecto {
+                    grid-template-columns: repeat(3, auto);
+                    gap: 15px;
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                h3 {
+                    margin-top: 0px;
+                    font-size: 1.3rem;
+                }
+
+                .texto-sitio1 {
+                    margin-top: 0rem;
+                    font-size: 1.1rem;
+                }
+                h4 {
+                    margin-top: 0.5rem;
+                    font-size: 1.1rem;
+                }
+                .visitar {
+                    margin-top: 1.5rem;
+                    a {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // PARTE 5- CONTACTO - 540px
+
+    .contacto {
+        .contain {
+            h2 {
+                font-size: 2.4rem;
+        }
+            p {
+                font-size: 1.3rem;
+                text-align: center;
+            }
+            .button-contacto {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+
+// MEDIA QUERYS - 440PX
 
 @media screen and (max-width: 440px) {
 
@@ -1004,7 +2397,7 @@ nav {
             padding: 1.3rem;
         
             p {
-                font-size: 18px;
+                font-size: 1.17rem;
                 width: 100%;
             }
             .intereses {
@@ -1016,10 +2409,10 @@ nav {
                     text-align: center;
                     margin-top: 1rem;
                     margin-bottom: 0px;
-                    font-size: 30px;
+                    font-size: 1.9rem;
                 }
                 .inter {
-                    font-size: 18px;
+                    font-size: 1.2rem;
                 }
             }
         }
@@ -1052,7 +2445,7 @@ nav {
             margin-top: 2rem;
             width: 100%;
             padding: 1rem; 
-            font-size: 25px;   
+            font-size: 1.8rem;   
         }
         .aptitudes {
             gap: 1rem;
@@ -1066,7 +2459,7 @@ nav {
                 width: 43px;
             }
             p {
-                font-size: 19px;
+                font-size: 1.2rem;
             }
         }
     }
@@ -1102,27 +2495,27 @@ nav {
                     gap: 15px;
                     
                     p {
-                        font-size: 12px;
+                        font-size: 0.8rem;
                     }
                 }
 
                 h3 {
                     margin-top: 0px;
-                    font-size: 20px;
+                    font-size: 1.3rem;
                 }
 
                 .texto-sitio1 {
                     margin-top: 0rem;
-                    font-size: 16px;
+                    font-size: 1.1rem;
                 }
                 h4 {
                     margin-top: 0.5rem;
-                    font-size: 18px;
+                    font-size: 1.1rem;
                 }
                 .visitar {
                     margin-top: 1.5rem;
                     a {
-                        font-size: 20px;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -1148,27 +2541,27 @@ nav {
                     gap: 15px;
                     
                     p {
-                        font-size: 12px;
+                        font-size: 0.8rem;
                     }
                 }
 
                 h3 {
                     margin-top: 0px;
-                    font-size: 20px;
+                    font-size: 1.3rem;
                 }
 
                 .texto-sitio1 {
                     margin-top: 0rem;
-                    font-size: 16px;
+                    font-size: 1.1rem;
                 }
                 h4 {
                     margin-top: 0.5rem;
-                    font-size: 18px;
+                    font-size: 1.1rem;
                 }
                 .visitar {
                     margin-top: 1.5rem;
                     a {
-                        font-size: 20px;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -1194,27 +2587,27 @@ nav {
                     grid-template-columns: repeat(3, auto);
                     gap: 15px;
                     p {
-                        font-size: 12px;
+                        font-size: 0.8rem;
                     }
                 }
 
                 h3 {
                     margin-top: 0px;
-                    font-size: 20px;
+                    font-size: 1.3rem;
                 }
 
                 .texto-sitio1 {
                     margin-top: 0rem;
-                    font-size: 16px;
+                    font-size: 1.1rem;
                 }
                 h4 {
                     margin-top: 0.5rem;
-                    font-size: 18px;
+                    font-size: 1.1rem;
                 }
                 .visitar {
-                    margin-top: 1.7rem;
+                    margin-top: 1.5rem;
                     a {
-                        font-size: 20px;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -1229,7 +2622,7 @@ nav {
                 font-size: 2rem;
         }
             p {
-                font-size: 18px;
+                font-size: 1.3rem;
                 text-align: center;
             }
             .button-contacto {
@@ -1240,7 +2633,7 @@ nav {
 }
 
 
-// MEDIA QUERYS - 320PX - 360px
+// MEDIA QUERYS - 380px
 
 @media screen and (max-width: 380px) {
 
