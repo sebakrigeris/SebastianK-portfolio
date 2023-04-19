@@ -610,6 +610,201 @@ nav {
     transform: scale(0.75);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); } }
 
+@media screen and (max-width: 1023px) {
+  .contain {
+    width: 95%; }
+  header nav {
+    height: 70px; }
+    header nav .logo {
+      font-size: 2rem; }
+    header nav .contain-nav {
+      justify-content: space-between; }
+    header nav .abrir-menu {
+      display: block;
+      font-size: 2.3rem; }
+    header nav .menu-links {
+      flex-direction: column;
+      align-items: end;
+      position: fixed;
+      top: 70px;
+      left: 0;
+      padding: 1rem;
+      background-color: #120439;
+      height: calc(100% - 70px);
+      margin: 0;
+      left: 100%;
+      transition: left 0.3s; }
+    header nav .nav-visible {
+      left: 0;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); }
+  .inicio .contain-inicio {
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
+  .inicio img {
+    width: 420px; }
+  .inicio .sec1-img-redes {
+    padding: 1.5rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 3rem; }
+  .inicio .sec1-texto {
+    margin-top: 0rem;
+    text-align: center; }
+    .inicio .sec1-texto h2 {
+      font-size: 4rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 3rem; }
+    .inicio .sec1-texto p {
+      font-size: 2.2rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.9rem;
+      margin-right: 2rem;
+      margin-left: 2rem; }
+  .sobre-mi h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 100%;
+    min-height: 540px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 1.52rem;
+      width: 80%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(1, auto);
+      gap: 2.2rem 1.5rem; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        font-size: 2rem; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 1.2rem;
+        width: 80%;
+        margin: auto; }
+  .habilidades h2 {
+    font-size: 3rem;
+    padding-top: 6rem;
+    margin-bottom: 5rem;
+    margin: auto; }
+  .habilidades .habilidad {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center; }
+    .habilidades .habilidad .progreso-barra {
+      width: 53.5rem;
+      margin: auto; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding-bottom: 3rem; }
+    .habilidades .aptitudes img {
+      width: 60px; }
+    .habilidades .aptitudes p {
+      font-size: 1.2rem; }
+  .proyectos h2 {
+    font-size: 3rem;
+    padding-top: 6rem; }
+  .proyectos .img1 .apple1 {
+    width: 580px;
+    height: 370px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img1 .cartel {
+    width: 100%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img1 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 15px; }
+      .proyectos .img1 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img1 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.5rem; }
+    .proyectos .img1 .cartel .texto-sitio1 {
+      margin-top: 1rem;
+      font-size: 1.3rem; }
+    .proyectos .img1 .cartel h4 {
+      margin-top: 1.2rem;
+      font-size: 1.4rem; }
+    .proyectos .img1 .cartel .visitar {
+      margin-top: 3rem; }
+      .proyectos .img1 .cartel .visitar a {
+        font-size: 1.5rem; }
+  .proyectos .img2 {
+    flex-direction: row; }
+    .proyectos .img2 .apple2 {
+      width: 580px;
+      height: 370px;
+      border-radius: 0.5rem 0rem 0rem 0.5rem; }
+    .proyectos .img2 .cartel {
+      width: 100%;
+      border-radius: 0rem 0.5rem 0.5rem 0rem; }
+      .proyectos .img2 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 15px; }
+        .proyectos .img2 .cartel .grid-proyecto p {
+          font-size: 0.8rem; }
+      .proyectos .img2 .cartel h3 {
+        margin-top: 0px;
+        font-size: 1.3rem; }
+      .proyectos .img2 .cartel .texto-sitio1 {
+        margin-top: 0rem;
+        font-size: 1.1rem; }
+      .proyectos .img2 .cartel h4 {
+        margin-top: 0.5rem;
+        font-size: 1.1rem; }
+      .proyectos .img2 .cartel .visitar {
+        margin-top: 1.5rem; }
+        .proyectos .img2 .cartel .visitar a {
+          font-size: 1.3rem; }
+  .proyectos .img3 .apple3 {
+    width: 580px;
+    height: 370px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img3 .cartel {
+    width: 100%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img3 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 15px; }
+      .proyectos .img3 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img3 .cartel h3 {
+      margin-top: 0px;
+      font-size: 2rem; }
+    .proyectos .img3 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.1rem; }
+    .proyectos .img3 .cartel h4 {
+      margin-top: 0.5rem;
+      font-size: 1.1rem; }
+    .proyectos .img3 .cartel .visitar {
+      margin-top: 1.5rem; }
+      .proyectos .img3 .cartel .visitar a {
+        font-size: 1.3rem; }
+  .contacto .contain h2 {
+    font-size: 3rem; }
+  .contacto .contain p {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
 @media screen and (max-width: 900px) {
   .contain {
     width: 95%; }
@@ -688,7 +883,8 @@ nav {
         margin-bottom: 0px;
         font-size: 2.4rem; }
       .sobre-mi .seccion2 .intereses .inter {
-        font-size: 1.7rem; }
+        font-size: 1.7rem;
+        width: 100%; }
   .habilidades h2 {
     font-size: 2.6rem;
     padding-top: 6rem;
@@ -737,20 +933,20 @@ nav {
         grid-template-columns: repeat(3, auto);
         gap: 15px; }
         .proyectos .img1 .cartel .grid-proyecto p {
-          font-size: 0.8rem; }
+          font-size: 1rem; }
       .proyectos .img1 .cartel h3 {
         margin-top: 0px;
-        font-size: 1.3rem; }
+        font-size: 1.6rem; }
       .proyectos .img1 .cartel .texto-sitio1 {
         margin-top: 0rem;
-        font-size: 1.1rem; }
+        font-size: 1.2rem; }
       .proyectos .img1 .cartel h4 {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img1 .cartel .visitar {
         margin-top: 1.5rem; }
         .proyectos .img1 .cartel .visitar a {
-          font-size: 1.3rem; }
+          font-size: 1.5rem; }
   .proyectos .img2 {
     flex-direction: column; }
     .proyectos .img2 .apple2 {
@@ -767,20 +963,20 @@ nav {
         grid-template-columns: repeat(3, auto);
         gap: 15px; }
         .proyectos .img2 .cartel .grid-proyecto p {
-          font-size: 0.8rem; }
+          font-size: 1rem; }
       .proyectos .img2 .cartel h3 {
         margin-top: 0px;
-        font-size: 1.3rem; }
+        font-size: 1.6rem; }
       .proyectos .img2 .cartel .texto-sitio1 {
         margin-top: 0rem;
-        font-size: 1.1rem; }
+        font-size: 1.2rem; }
       .proyectos .img2 .cartel h4 {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img2 .cartel .visitar {
         margin-top: 1.5rem; }
         .proyectos .img2 .cartel .visitar a {
-          font-size: 1.3rem; }
+          font-size: 1.5rem; }
   .proyectos .img3 {
     flex-direction: column; }
     .proyectos .img3 .apple3 {
@@ -797,20 +993,20 @@ nav {
         grid-template-columns: repeat(3, auto);
         gap: 15px; }
         .proyectos .img3 .cartel .grid-proyecto p {
-          font-size: 0.8rem; }
+          font-size: 1rem; }
       .proyectos .img3 .cartel h3 {
         margin-top: 0px;
-        font-size: 1.3rem; }
+        font-size: 1.6rem; }
       .proyectos .img3 .cartel .texto-sitio1 {
         margin-top: 0rem;
-        font-size: 1.1rem; }
+        font-size: 1.2rem; }
       .proyectos .img3 .cartel h4 {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img3 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: 0.5rem; }
         .proyectos .img3 .cartel .visitar a {
-          font-size: 1.3rem; }
+          font-size: 1.5rem; }
   .contacto .contain h2 {
     font-size: 2.6rem; }
   .contacto .contain p {
