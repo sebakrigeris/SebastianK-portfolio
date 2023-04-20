@@ -284,13 +284,13 @@ nav {
         margin-top: 10px; }
       .proyectos .img1 .cartel .texto-sitio1 {
         margin-top: 3rem;
-        font-size: 18px; }
+        font-size: 22px; }
       .proyectos .img1 .cartel h4 {
         margin-top: 3.5rem;
         margin-bottom: 1rem;
         font-family: var(--font-text);
         letter-spacing: 1px;
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 300; }
       .proyectos .img1 .cartel p {
         font-family: var(--font-text);
@@ -317,7 +317,8 @@ nav {
           color: white;
           text-decoration: none;
           font-family: var(--font-text);
-          font-size: 22px; }
+          font-size: 22px;
+          margin-top: 10%; }
         .proyectos .img1 .cartel .visitar a:hover {
           background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
           -webkit-background-clip: text;
@@ -354,13 +355,13 @@ nav {
         margin-top: 10px; }
       .proyectos .img2 .cartel .texto-sitio1 {
         margin-top: 3rem;
-        font-size: 18px; }
+        font-size: 22px; }
       .proyectos .img2 .cartel h4 {
         margin-top: 3.5rem;
         margin-bottom: 1rem;
         font-family: var(--font-text);
         letter-spacing: 1px;
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 300; }
       .proyectos .img2 .cartel p {
         font-family: var(--font-text);
@@ -388,6 +389,7 @@ nav {
           text-decoration: none;
           font-family: var(--font-text);
           font-size: 22px;
+          margin-top: 5.5%;
           transition: 0.3s; }
         .proyectos .img2 .cartel .visitar a:hover {
           background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
@@ -426,13 +428,13 @@ nav {
         margin-top: 10px; }
       .proyectos .img3 .cartel .texto-sitio1 {
         margin-top: 3rem;
-        font-size: 18px; }
+        font-size: 22px; }
       .proyectos .img3 .cartel h4 {
         margin-top: 3.5rem;
         margin-bottom: 1rem;
         font-family: var(--font-text);
         letter-spacing: 1px;
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 300; }
       .proyectos .img3 .cartel p {
         font-family: var(--font-text);
@@ -459,7 +461,8 @@ nav {
           color: white;
           text-decoration: none;
           font-family: var(--font-text);
-          font-size: 22px; }
+          font-size: 22px;
+          margin-top: 28%; }
         .proyectos .img3 .cartel .visitar a:hover {
           background-image: radial-gradient(circle farthest-corner at 30% 20%, #b67bfe 0%, #56aaff 90%);
           -webkit-background-clip: text;
@@ -610,6 +613,1013 @@ nav {
     transform: scale(0.75);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); } }
 
+@media screen and (max-width: 1700px) {
+  .contain {
+    width: 93%; }
+  header nav {
+    height: 9%; }
+  .inicio img {
+    width: 390px; }
+  .inicio .sec1-img-redes {
+    padding: 2rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 3rem; }
+  .inicio .sec1-texto {
+    margin-top: 1rem;
+    text-align: center; }
+    .inicio .sec1-texto h2 {
+      font-size: 5rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 3.4rem; }
+    .inicio .sec1-texto p {
+      font-size: 2.5rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.9rem;
+      margin-right: 2rem;
+      margin-left: 2rem; }
+  .sobre-mi h2 {
+    font-size: 3.3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 100%;
+    min-height: 540px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 1.62rem;
+      width: 85%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(1, auto);
+      gap: 2.2rem 1.5rem; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        font-size: 2rem; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 1.4rem;
+        width: 85%;
+        margin: auto; }
+  .habilidades h2 {
+    font-size: 3.3rem;
+    padding-top: 6.9rem;
+    margin-bottom: 4rem; }
+  .habilidades .habilidad .progreso-barra {
+    width: 44.5rem; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, auto); }
+    .habilidades .aptitudes img {
+      width: 4.5rem; }
+    .habilidades .aptitudes p {
+      font-size: 1.2rem; }
+  .proyectos h2 {
+    font-size: 3.3rem;
+    padding-top: 6.7rem; }
+  .proyectos .img1 .apple1 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img1 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img1 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img1 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img1 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img1 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img1 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img1 .cartel .visitar {
+      margin-top: 42%; }
+      .proyectos .img1 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .proyectos .img2 .apple2 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+  .proyectos .img2 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+    .proyectos .img2 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img2 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img2 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img2 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img2 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img2 .cartel .visitar {
+      margin-top: 45%; }
+      .proyectos .img2 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .proyectos .img3 .apple3 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img3 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img3 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img3 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img3 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img3 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img3 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img3 .cartel .visitar {
+      margin-top: 40%; }
+      .proyectos .img3 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .contacto .contain h2 {
+    font-size: 3.3rem; }
+  .contacto .contain p {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1600px) {
+  .contain {
+    width: 93%; }
+  header nav {
+    height: 9%; }
+  .inicio .contain-inicio {
+    gap: 1rem; }
+  .inicio img {
+    width: 320px; }
+  .inicio .sec1-img-redes {
+    padding: 2rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 3rem; }
+  .inicio .sec1-texto {
+    margin-top: 1rem;
+    text-align: center; }
+    .inicio .sec1-texto h2 {
+      font-size: 5rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 3.4rem; }
+    .inicio .sec1-texto p {
+      font-size: 2.5rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.9rem;
+      margin-right: 2rem;
+      margin-left: 2rem; }
+  .sobre-mi h2 {
+    font-size: 3.3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 100%;
+    min-height: 540px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 1.62rem;
+      width: 86%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(1, auto);
+      gap: 2.2rem 1.5rem; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        font-size: 2rem; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 1.4rem;
+        width: 85%;
+        margin: auto; }
+  .habilidades h2 {
+    font-size: 3.3rem;
+    padding-top: 6.9rem;
+    margin-bottom: 4rem; }
+  .habilidades .habilidad .progreso-barra {
+    width: 41.5rem; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, auto); }
+    .habilidades .aptitudes img {
+      width: 4.5rem; }
+    .habilidades .aptitudes p {
+      font-size: 1.2rem; }
+  .proyectos h2 {
+    font-size: 3.3rem;
+    padding-top: 6.7rem; }
+  .proyectos .img1 .apple1 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img1 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img1 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img1 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img1 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img1 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img1 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img1 .cartel .visitar {
+      margin-top: 42%; }
+      .proyectos .img1 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .proyectos .img2 .apple2 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+  .proyectos .img2 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+    .proyectos .img2 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img2 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img2 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img2 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img2 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img2 .cartel .visitar {
+      margin-top: 46%; }
+      .proyectos .img2 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .proyectos .img3 .apple3 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img3 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img3 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img3 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img3 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img3 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img3 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img3 .cartel .visitar {
+      margin-top: 41%; }
+      .proyectos .img3 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .contacto .contain h2 {
+    font-size: 3.3rem; }
+  .contacto .contain p {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1500px) {
+  .contain {
+    width: 93%; }
+  header nav {
+    height: 9%; }
+  .inicio .contain-inicio {
+    gap: 1rem; }
+  .inicio img {
+    width: 320px; }
+  .inicio .sec1-img-redes {
+    padding: 2rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 3rem; }
+  .inicio .sec1-texto {
+    margin-top: 1rem;
+    text-align: center; }
+    .inicio .sec1-texto h2 {
+      font-size: 4.6rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 3.4rem; }
+    .inicio .sec1-texto p {
+      font-size: 2.5rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.9rem;
+      margin-right: 2rem;
+      margin-left: 2rem; }
+  .sobre-mi h2 {
+    font-size: 3.3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 100%;
+    min-height: 540px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 1.62rem;
+      width: 80%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(1, auto);
+      gap: 2.2rem 1.5rem; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        font-size: 2rem; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 1.4rem;
+        width: 80%;
+        margin: auto; }
+  .habilidades h2 {
+    font-size: 3.3rem;
+    padding-top: 6.9rem;
+    margin-bottom: 4rem; }
+  .habilidades .habilidad .progreso-barra {
+    width: 39.5rem; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, auto); }
+    .habilidades .aptitudes img {
+      width: 4.5rem; }
+    .habilidades .aptitudes p {
+      font-size: 1.2rem; }
+  .proyectos h2 {
+    font-size: 3.3rem;
+    padding-top: 6.7rem; }
+  .proyectos .img1 .apple1 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img1 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img1 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img1 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img1 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img1 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img1 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img1 .cartel .visitar {
+      margin-top: 42%; }
+      .proyectos .img1 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .proyectos .img2 .apple2 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+  .proyectos .img2 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+    .proyectos .img2 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img2 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img2 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img2 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img2 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img2 .cartel .visitar {
+      margin-top: 46%; }
+      .proyectos .img2 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .proyectos .img3 .apple3 {
+    width: 750px;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img3 .cartel {
+    width: 300px;
+    height: 500px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img3 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img3 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img3 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.6rem; }
+    .proyectos .img3 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    .proyectos .img3 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img3 .cartel .visitar {
+      margin-top: 41%; }
+      .proyectos .img3 .cartel .visitar a {
+        font-size: 1.4rem; }
+  .contacto .contain h2 {
+    font-size: 3.3rem; }
+  .contacto .contain p {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1415px) {
+  .contain {
+    width: 93%; }
+  header nav {
+    height: 9%; }
+  .inicio .contain-inicio {
+    gap: 1rem; }
+  .inicio img {
+    width: 320px; }
+  .inicio .sec1-img-redes {
+    padding: 2rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 3rem; }
+  .inicio .sec1-texto {
+    margin-top: 1rem;
+    text-align: center; }
+    .inicio .sec1-texto h2 {
+      font-size: 4.3rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 3.4rem; }
+    .inicio .sec1-texto p {
+      font-size: 2.5rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.9rem;
+      margin-right: 2rem;
+      margin-left: 2rem; }
+  .sobre-mi h2 {
+    font-size: 3.3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 100%;
+    min-height: 540px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 1.62rem;
+      width: 80%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(1, auto);
+      gap: 2.2rem 1.5rem; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        font-size: 2rem; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 1.4rem;
+        width: 80%;
+        margin: auto; }
+  .habilidades h2 {
+    font-size: 3.3rem;
+    padding-top: 6.9rem;
+    margin-bottom: 4rem; }
+  .habilidades .habilidad .progreso-barra {
+    width: 37rem; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, auto); }
+    .habilidades .aptitudes img {
+      width: 4.5rem; }
+    .habilidades .aptitudes p {
+      font-size: 1.2rem; }
+  .proyectos h2 {
+    font-size: 3.3rem;
+    padding-top: 6.7rem; }
+  .proyectos .img1 .apple1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img1 .cartel {
+    width: 50%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img1 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img1 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img1 .cartel h3 {
+      margin-top: 0px;
+      font-size: 2rem; }
+    .proyectos .img1 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.4rem; }
+    .proyectos .img1 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.7rem; }
+    .proyectos .img1 .cartel .visitar {
+      margin-top: 29%; }
+      .proyectos .img1 .cartel .visitar a {
+        font-size: 1.7rem; }
+  .proyectos .img2 {
+    flex-direction: row; }
+    .proyectos .img2 .apple2 {
+      width: 66%;
+      height: 500px;
+      border-radius: 0.5rem 0rem 0rem 0.5rem;
+      margin: auto; }
+    .proyectos .img2 .cartel {
+      width: 50%;
+      border-radius: 0rem 0.5rem 0.5rem 0rem; }
+      .proyectos .img2 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 1rem; }
+        .proyectos .img2 .cartel .grid-proyecto p {
+          font-size: 0.8rem; }
+      .proyectos .img2 .cartel h3 {
+        margin-top: 0px;
+        font-size: 2rem; }
+      .proyectos .img2 .cartel .texto-sitio1 {
+        margin-top: 2rem;
+        font-size: 1.4rem; }
+      .proyectos .img2 .cartel h4 {
+        margin-top: 1.5rem;
+        font-size: 1.7rem; }
+      .proyectos .img2 .cartel .visitar {
+        margin-top: 33%; }
+        .proyectos .img2 .cartel .visitar a {
+          font-size: 1.7rem; }
+  .proyectos .img3 .apple3 {
+    width: 66%;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img3 .cartel {
+    width: 50%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img3 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img3 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img3 .cartel h3 {
+      margin-top: 0px;
+      font-size: 2rem; }
+    .proyectos .img3 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.4rem; }
+    .proyectos .img3 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.7rem; }
+    .proyectos .img3 .cartel .visitar {
+      margin-top: 10%; }
+      .proyectos .img3 .cartel .visitar a {
+        font-size: 1.7rem; }
+  .contacto .contain h2 {
+    font-size: 3.3rem; }
+  .contacto .contain p {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1350px) {
+  .contain {
+    width: 93%; }
+  header nav {
+    height: 9%; }
+  .inicio .contain-inicio {
+    gap: 2rem; }
+  .inicio img {
+    width: 380px; }
+  .inicio .sec1-img-redes {
+    padding: 2rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 3rem; }
+  .inicio .sec1-texto {
+    margin-top: 1rem;
+    text-align: start; }
+    .inicio .sec1-texto h2 {
+      font-size: 5.5rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 3.4rem; }
+    .inicio .sec1-texto p {
+      font-size: 2.5rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.9rem;
+      margin-right: 2rem;
+      margin-left: 2rem; }
+  .sobre-mi h2 {
+    font-size: 3.3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 100%;
+    min-height: 540px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 1.62rem;
+      width: 80%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(1, auto);
+      gap: 2.2rem 1.5rem; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        font-size: 2rem; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 1.4rem;
+        width: 80%;
+        margin: auto; }
+  .habilidades h2 {
+    font-size: 3.3rem;
+    padding-top: 6.7rem;
+    margin-bottom: 4rem; }
+  .habilidades .habilidad .progreso-barra {
+    width: 33rem; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, auto); }
+    .habilidades .aptitudes img {
+      width: 4rem; }
+    .habilidades .aptitudes p {
+      font-size: 1.2rem; }
+  .proyectos h2 {
+    font-size: 3.3rem;
+    padding-top: 6.7rem; }
+  .proyectos .img1 .apple1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img1 .cartel {
+    width: 50%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img1 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img1 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img1 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.7rem; }
+    .proyectos .img1 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.3rem; }
+    .proyectos .img1 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img1 .cartel .visitar {
+      margin-top: 34%; }
+      .proyectos .img1 .cartel .visitar a {
+        font-size: 1.5rem; }
+  .proyectos .img2 {
+    flex-direction: row; }
+    .proyectos .img2 .apple2 {
+      width: 66%;
+      height: 500px;
+      border-radius: 0.5rem 0rem 0rem 0.5rem;
+      margin: auto; }
+    .proyectos .img2 .cartel {
+      width: 50%;
+      border-radius: 0rem 0.5rem 0.5rem 0rem; }
+      .proyectos .img2 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 1rem; }
+        .proyectos .img2 .cartel .grid-proyecto p {
+          font-size: 0.8rem; }
+      .proyectos .img2 .cartel h3 {
+        margin-top: 0px;
+        font-size: 1.7rem; }
+      .proyectos .img2 .cartel .texto-sitio1 {
+        margin-top: 2rem;
+        font-size: 1.3rem; }
+      .proyectos .img2 .cartel h4 {
+        margin-top: 1.5rem;
+        font-size: 1.5rem; }
+      .proyectos .img2 .cartel .visitar {
+        margin-top: 38%; }
+        .proyectos .img2 .cartel .visitar a {
+          font-size: 1.5rem; }
+  .proyectos .img3 .apple3 {
+    width: 66%;
+    height: 500px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img3 .cartel {
+    width: 50%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img3 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img3 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img3 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.7rem; }
+    .proyectos .img3 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.3rem; }
+    .proyectos .img3 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img3 .cartel .visitar {
+      margin-top: 16%; }
+      .proyectos .img3 .cartel .visitar a {
+        font-size: 1.5rem; }
+  .contacto .contain h2 {
+    font-size: 3.3rem; }
+  .contacto .contain p {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1200px) {
+  .contain {
+    width: 93%; }
+  header nav {
+    height: 9%; }
+    header nav .logo {
+      font-size: 2.5rem; }
+    header nav .contain-nav {
+      justify-content: space-between; }
+    header nav .abrir-menu {
+      display: block;
+      font-size: 2.6rem; }
+    header nav .menu-links {
+      flex-direction: column;
+      align-items: end;
+      position: fixed;
+      top: 9%;
+      left: 0;
+      padding: 1rem;
+      background-color: #120439;
+      height: calc(100% - 70px);
+      margin: 0;
+      left: 100%;
+      transition: left 0.3s; }
+    header nav .nav-visible {
+      left: 0;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); }
+  .inicio .contain-inicio {
+    gap: 2%; }
+  .inicio img {
+    width: 327px; }
+  .inicio .sec1-img-redes {
+    padding: 1.5rem;
+    margin-top: 3rem; }
+  .inicio .sec1-redes {
+    font-size: 3rem; }
+  .inicio .sec1-texto {
+    margin-top: 1rem;
+    text-align: center; }
+    .inicio .sec1-texto h2 {
+      font-size: 5rem; }
+    .inicio .sec1-texto h3 {
+      font-size: 3.3rem; }
+    .inicio .sec1-texto p {
+      font-size: 2.1rem; }
+    .inicio .sec1-texto a {
+      font-size: 1.9rem;
+      margin-right: 2rem;
+      margin-left: 2rem; }
+  .sobre-mi h2 {
+    font-size: 3.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .sobre-mi .seccion2 {
+    width: 100%;
+    min-height: 540px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1.3rem; }
+    .sobre-mi .seccion2 p {
+      font-size: 1.52rem;
+      width: 80%; }
+    .sobre-mi .seccion2 .intereses {
+      grid-template-columns: repeat(1, auto);
+      gap: 2.2rem 1.5rem; }
+      .sobre-mi .seccion2 .intereses .h2-intereses {
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        font-size: 2rem; }
+      .sobre-mi .seccion2 .intereses .inter {
+        font-size: 1.2rem;
+        width: 80%;
+        margin: auto; }
+  .habilidades h2 {
+    font-size: 3.1rem;
+    padding-top: 6rem;
+    margin-bottom: 5rem;
+    margin: auto; }
+  .habilidades .habilidad {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center; }
+    .habilidades .habilidad .progreso-barra {
+      width: 59.3rem;
+      margin: auto; }
+  .habilidades .aptitud-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem; }
+  .habilidades .aptitudes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    padding-bottom: 3rem; }
+    .habilidades .aptitudes img {
+      width: 4rem; }
+    .habilidades .aptitudes p {
+      font-size: 1.2rem; }
+  .proyectos h2 {
+    font-size: 3.1rem;
+    padding-top: 6rem; }
+  .proyectos .img1 .apple1 {
+    width: 100%;
+    height: 420px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img1 .cartel {
+    width: 50%;
+    height: 420px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img1 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img1 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img1 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.7rem; }
+    .proyectos .img1 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.3rem; }
+    .proyectos .img1 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img1 .cartel .visitar {
+      margin-top: 17%; }
+      .proyectos .img1 .cartel .visitar a {
+        font-size: 1.5rem; }
+  .proyectos .img2 {
+    flex-direction: row; }
+    .proyectos .img2 .apple2 {
+      width: 66%;
+      height: 420px;
+      border-radius: 0.5rem 0rem 0rem 0.5rem;
+      margin: auto; }
+    .proyectos .img2 .cartel {
+      width: 50%;
+      height: 420px;
+      border-radius: 0rem 0.5rem 0.5rem 0rem; }
+      .proyectos .img2 .cartel .grid-proyecto {
+        grid-template-columns: repeat(3, auto);
+        gap: 1rem; }
+        .proyectos .img2 .cartel .grid-proyecto p {
+          font-size: 0.8rem; }
+      .proyectos .img2 .cartel h3 {
+        margin-top: 0px;
+        font-size: 1.7rem; }
+      .proyectos .img2 .cartel .texto-sitio1 {
+        margin-top: 2rem;
+        font-size: 1.3rem; }
+      .proyectos .img2 .cartel h4 {
+        margin-top: 1.5rem;
+        font-size: 1.5rem; }
+      .proyectos .img2 .cartel .visitar {
+        margin-top: 22%; }
+        .proyectos .img2 .cartel .visitar a {
+          font-size: 1.5rem; }
+  .proyectos .img3 .apple3 {
+    width: 66%;
+    height: 420px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem; }
+  .proyectos .img3 .cartel {
+    width: 50%;
+    height: 420px;
+    border-radius: 0rem 0.5rem 0.5rem 0rem; }
+    .proyectos .img3 .cartel .grid-proyecto {
+      grid-template-columns: repeat(3, auto);
+      gap: 1rem; }
+      .proyectos .img3 .cartel .grid-proyecto p {
+        font-size: 0.8rem; }
+    .proyectos .img3 .cartel h3 {
+      margin-top: 0px;
+      font-size: 1.7rem; }
+    .proyectos .img3 .cartel .texto-sitio1 {
+      margin-top: 2rem;
+      font-size: 1.3rem; }
+    .proyectos .img3 .cartel h4 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem; }
+    .proyectos .img3 .cartel .visitar {
+      margin-top: 0px; }
+      .proyectos .img3 .cartel .visitar a {
+        font-size: 1.5rem; }
+  .contacto .contain h2 {
+    font-size: 3.1rem; }
+  .contacto .contain p {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contacto .contain .button-contacto {
+    flex-direction: column; } }
+
 @media screen and (max-width: 1023px) {
   .contain {
     width: 95%; }
@@ -721,11 +1731,12 @@ nav {
     font-size: 3rem;
     padding-top: 6rem; }
   .proyectos .img1 .apple1 {
-    width: 580px;
+    width: 550px;
     height: 370px;
     border-radius: 0.5rem 0rem 0rem 0.5rem; }
   .proyectos .img1 .cartel {
-    width: 100%;
+    width: 50%;
+    height: 370px;
     border-radius: 0rem 0.5rem 0.5rem 0rem; }
     .proyectos .img1 .cartel .grid-proyecto {
       grid-template-columns: repeat(3, auto);
@@ -742,17 +1753,18 @@ nav {
       margin-top: 1.2rem;
       font-size: 1.4rem; }
     .proyectos .img1 .cartel .visitar {
-      margin-top: 3rem; }
+      margin-top: 8%; }
       .proyectos .img1 .cartel .visitar a {
-        font-size: 1.5rem; }
+        font-size: 1.4rem; }
   .proyectos .img2 {
     flex-direction: row; }
     .proyectos .img2 .apple2 {
-      width: 580px;
+      width: 550px;
       height: 370px;
       border-radius: 0.5rem 0rem 0rem 0.5rem; }
     .proyectos .img2 .cartel {
       width: 100%;
+      height: 370px;
       border-radius: 0rem 0.5rem 0.5rem 0rem; }
       .proyectos .img2 .cartel .grid-proyecto {
         grid-template-columns: repeat(3, auto);
@@ -763,21 +1775,22 @@ nav {
         margin-top: 0px;
         font-size: 1.3rem; }
       .proyectos .img2 .cartel .texto-sitio1 {
-        margin-top: 0rem;
-        font-size: 1.1rem; }
+        margin-top: 1rem;
+        font-size: 1.3rem; }
       .proyectos .img2 .cartel h4 {
-        margin-top: 0.5rem;
-        font-size: 1.1rem; }
+        margin-top: 1.2rem;
+        font-size: 1.4rem; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: 12%; }
         .proyectos .img2 .cartel .visitar a {
-          font-size: 1.3rem; }
+          font-size: 1.5rem; }
   .proyectos .img3 .apple3 {
-    width: 580px;
+    width: 550px;
     height: 370px;
     border-radius: 0.5rem 0rem 0rem 0.5rem; }
   .proyectos .img3 .cartel {
     width: 100%;
+    height: 370px;
     border-radius: 0rem 0.5rem 0.5rem 0rem; }
     .proyectos .img3 .cartel .grid-proyecto {
       grid-template-columns: repeat(3, auto);
@@ -786,15 +1799,15 @@ nav {
         font-size: 0.8rem; }
     .proyectos .img3 .cartel h3 {
       margin-top: 0px;
-      font-size: 2rem; }
+      font-size: 1.5rem; }
     .proyectos .img3 .cartel .texto-sitio1 {
-      margin-top: 2rem;
-      font-size: 1.1rem; }
+      margin-top: 1rem;
+      font-size: 1.3rem; }
     .proyectos .img3 .cartel h4 {
-      margin-top: 0.5rem;
-      font-size: 1.1rem; }
+      margin-top: 1.2rem;
+      font-size: 1.4rem; }
     .proyectos .img3 .cartel .visitar {
-      margin-top: 1.5rem; }
+      margin-top: -5%; }
       .proyectos .img3 .cartel .visitar a {
         font-size: 1.3rem; }
   .contacto .contain h2 {
@@ -944,7 +1957,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img1 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -6%; }
         .proyectos .img1 .cartel .visitar a {
           font-size: 1.5rem; }
   .proyectos .img2 {
@@ -974,7 +1987,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -2%; }
         .proyectos .img2 .cartel .visitar a {
           font-size: 1.5rem; }
   .proyectos .img3 {
@@ -1004,7 +2017,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img3 .cartel .visitar {
-        margin-top: 0.5rem; }
+        margin-top: -26.5%; }
         .proyectos .img3 .cartel .visitar a {
           font-size: 1.5rem; }
   .contacto .contain h2 {
@@ -1129,7 +2142,7 @@ nav {
     flex-direction: column; }
     .proyectos .img1 .apple1 {
       width: 100%;
-      height: 370px;
+      height: 400px;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
       margin: auto; }
     .proyectos .img1 .cartel {
@@ -1152,14 +2165,14 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img1 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -2%; }
         .proyectos .img1 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img2 {
     flex-direction: column; }
     .proyectos .img2 .apple2 {
       width: 100%;
-      height: 370px;
+      height: 400px;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
       margin: auto; }
     .proyectos .img2 .cartel {
@@ -1182,14 +2195,14 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: 2.5%; }
         .proyectos .img2 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img3 {
     flex-direction: column; }
     .proyectos .img3 .apple3 {
       width: 100%;
-      height: 370px;
+      height: 400px;
       border-radius: 0.5rem 0.5rem 0rem 0rem;
       margin: auto; }
     .proyectos .img3 .cartel {
@@ -1212,7 +2225,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img3 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -23%; }
         .proyectos .img3 .cartel .visitar a {
           font-size: 1.3rem; }
   .contacto .contain h2 {
@@ -1360,7 +2373,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img1 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -3%; }
         .proyectos .img1 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img2 {
@@ -1390,7 +2403,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: 1%; }
         .proyectos .img2 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img3 {
@@ -1420,7 +2433,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img3 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -22%; }
         .proyectos .img3 .cartel .visitar a {
           font-size: 1.3rem; }
   .contacto .contain h2 {
@@ -1450,13 +2463,14 @@ nav {
       top: 70px;
       left: 0;
       padding: 1rem;
-      background-color: #A5B1E0;
+      background-color: #120439;
       height: calc(100% - 70px);
       margin: 0;
       left: 100%;
       transition: left 0.3s; }
     header nav .nav-visible {
-      left: 0; }
+      left: 0;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); }
   .inicio .contain-inicio {
     flex-direction: column;
     gap: 3rem;
@@ -1567,7 +2581,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img1 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -2%; }
         .proyectos .img1 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img2 {
@@ -1597,7 +2611,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: 2%; }
         .proyectos .img2 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img3 {
@@ -1627,7 +2641,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img3 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -21%; }
         .proyectos .img3 .cartel .visitar a {
           font-size: 1.3rem; }
   .contacto .contain h2 {
@@ -1657,13 +2671,14 @@ nav {
       top: 70px;
       left: 0;
       padding: 1rem;
-      background-color: #A5B1E0;
+      background-color: #120439;
       height: calc(100% - 70px);
       margin: 0;
       left: 100%;
       transition: left 0.3s; }
     header nav .nav-visible {
-      left: 0; }
+      left: 0;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); }
   .inicio .contain-inicio {
     flex-direction: column;
     gap: 3rem;
@@ -1774,7 +2789,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img1 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -2%; }
         .proyectos .img1 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img2 {
@@ -1804,7 +2819,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: 2.5%; }
         .proyectos .img2 .cartel .visitar a {
           font-size: 1.3rem; }
   .proyectos .img3 {
@@ -1834,7 +2849,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 1.1rem; }
       .proyectos .img3 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -20%; }
         .proyectos .img3 .cartel .visitar a {
           font-size: 1.3rem; }
   .contacto .contain h2 {
@@ -1865,13 +2880,14 @@ nav {
       top: 70px;
       left: 0;
       padding: 1rem;
-      background-color: #A5B1E0;
+      background-color: #120439;
       height: calc(100% - 70px);
       margin: 0;
       left: 100%;
       transition: left 0.3s; }
     header nav .nav-visible {
-      left: 0; }
+      left: 0;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); }
   .inicio .contain-inicio {
     flex-direction: column;
     gap: 3rem; }
@@ -1980,7 +2996,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 18px; }
       .proyectos .img1 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: -0.5%; }
         .proyectos .img1 .cartel .visitar a {
           font-size: 20px; }
   .proyectos .img2 {
@@ -2010,7 +3026,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 18px; }
       .proyectos .img2 .cartel .visitar {
-        margin-top: 1.5rem; }
+        margin-top: 4%; }
         .proyectos .img2 .cartel .visitar a {
           font-size: 20px; }
   .proyectos .img3 {
@@ -2040,7 +3056,7 @@ nav {
         margin-top: 0.5rem;
         font-size: 18px; }
       .proyectos .img3 .cartel .visitar {
-        margin-top: 1.7rem; }
+        margin-top: -18%; }
         .proyectos .img3 .cartel .visitar a {
           font-size: 20px; }
   .contacto .contain h2 {
