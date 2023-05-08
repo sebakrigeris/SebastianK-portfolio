@@ -491,7 +491,8 @@ nav {
     .contacto .contain p {
       color: white;
       font-size: 30px;
-      font-family: var(--font-text); }
+      font-family: var(--font-text);
+      padding: 0.5rem; }
     .contacto .contain .button-contacto {
       display: flex;
       gap: 5rem; }
@@ -769,7 +770,7 @@ nav {
   .contacto .contain h2 {
     font-size: 3.3rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
@@ -932,7 +933,7 @@ nav {
   .contacto .contain h2 {
     font-size: 3.3rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
@@ -1095,7 +1096,7 @@ nav {
   .contacto .contain h2 {
     font-size: 3.3rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
@@ -1258,7 +1259,7 @@ nav {
   .contacto .contain h2 {
     font-size: 3.3rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
@@ -1421,7 +1422,7 @@ nav {
   .contacto .contain h2 {
     font-size: 3.3rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
@@ -1615,7 +1616,7 @@ nav {
   .contacto .contain h2 {
     font-size: 3.1rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
@@ -1813,7 +1814,7 @@ nav {
   .contacto .contain h2 {
     font-size: 3rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
@@ -2023,7 +2024,7 @@ nav {
   .contacto .contain h2 {
     font-size: 2.6rem; }
   .contacto .contain p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center; }
   .contacto .contain .button-contacto {
     flex-direction: column; } }
