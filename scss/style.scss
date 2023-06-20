@@ -85,7 +85,6 @@ nav {
 }
 
 
-
 // SECCIÓN 1 - Inicio
 
 .inicio {
@@ -98,7 +97,6 @@ nav {
     justify-content: center;
     align-items: center;
     
-
     .contain-inicio {
         display: flex; 
         justify-content: space-between;
@@ -107,7 +105,6 @@ nav {
     }
     .sec1-img-redes{
         margin-top: 5rem;
-        text-align: center; 
         background-color: #150445;
         padding: 3.6rem;
         border-radius: 1rem;
@@ -176,12 +173,7 @@ nav {
 }
 
 
-
-
-
-
 // SECCIÓN 2 - Sobre mi
-
 
 .sobre-mi {
     width: 100%;
@@ -206,7 +198,6 @@ nav {
     }
 
     .seccion2 {
-        height: 600px;
         background: var(--fondo-1);
         color: white;
         padding: 3rem;
@@ -217,20 +208,18 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        p {
-            width: 80%;
-        }
+        gap: 3rem;
     }
+
     .intereses {
         display: grid;
         grid-template-columns: repeat(1, auto);
         align-items: center;
-        gap: 20px;
-        margin-top: -1.5rem;
+        gap: 1.1rem;
         
-
         h2 {
             font-size: 35px;
+            margin: 0;
         }
 
         .inter {
@@ -248,15 +237,11 @@ nav {
         }
         .inter:hover {
             background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(134, 74, 208) 0%, rgb(71, 141, 210) 90% ); 
-            color: black;
+            color: rgb(255, 255, 255);
         }
     }   
         
 }
-
-
-
-
 
 
 // SECCIÓN 3 - Habilidades
@@ -267,6 +252,10 @@ nav {
     background: var(--fondo-1);
     color: white;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     h2 {
         text-align: center;
         font-family: var(--font-tittle);
@@ -275,17 +264,7 @@ nav {
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        padding-top: 8rem;
         margin-bottom: 2rem;
-    }
-
-    .contain-habilidad {
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-    .contain {
-        margin: auto;
     }
 
     .habilidad {
@@ -304,10 +283,6 @@ nav {
             margin-bottom: 20px;
             font-size: 25px;
         }
-        
-        span {
-            font-family: var(--font-text);
-        }
 
         .progreso-barra {
             background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
@@ -321,6 +296,7 @@ nav {
             font-size: 30px;
             font-family: var(--font-tittle);
             margin-top: 5rem;
+            padding-bottom: 0.5rem;
             border-bottom: 0.2px solid white;
         }
         
@@ -331,7 +307,6 @@ nav {
             text-align: center;
             
             margin-top: 5rem;
-            
     
             img {
                 width: 80px;
@@ -346,17 +321,16 @@ nav {
 }
 
 
-
-
-
-
-    // SECCION 4 - Proyectos
-
+// SECCION 4 - Proyectos
 
 .proyectos {
     width: 100%;
     min-height: 100vh;
     background: var(--fondo-2);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     h2 {
         text-align: center;
@@ -366,11 +340,7 @@ nav {
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        padding-top: 8rem;
-    }
-
-    .contain {
-        margin: auto;
+        padding-top: 9rem;
     }
 
     .img1 {
@@ -379,7 +349,7 @@ nav {
         margin-top: 4rem;
         margin-bottom: 5rem;
         .apple1 {
-            width: 850px;
+            width: 900px;
             height: 550px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
             border-radius: 0.5rem 0rem 0rem 0.5rem;
@@ -390,16 +360,12 @@ nav {
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
             border-radius: 0rem 0.5rem 0.5rem 0rem;
             color: white;
-
             padding: 1rem;
 
-            .grid-proyecto {
-                display: grid;
-                grid-template-columns: repeat(2, auto);
-                gap: 20px;
-            }
+            display: grid;
+            justify-content: space-between;
 
-        h3  {
+        h3 {
             font-size: 25px;
             font-family: var(--font-tittle);
             background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
@@ -407,27 +373,35 @@ nav {
             background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
-            margin-top: 10px;
             }
 
             .texto-sitio1 {
-                margin-top: 3rem;
+                margin-top: 2rem;
                 font-size: 22px;
             }
 
         h4 {
-            margin-top: 3.5rem;
-            margin-bottom: 1rem;
+            margin-top: 3rem;
             font-family: var(--font-text); 
             letter-spacing: 1px;
             font-size: 25px;
             font-weight: 300;
             }
+
+            .grid-proyecto {
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                align-content: center;
+                gap: 15px;
+                margin-top: -7rem;
+            }
+
             p {
                 font-family: var(--font-text);
                 text-align: center;
                 padding: 0.5rem;
-
+                margin: auto;
+                width: 100%;
             }
             .html {
                 background-color: rgb(255, 137, 2);
@@ -452,15 +426,15 @@ nav {
             .visitar {
                 display: flex;
                 justify-content: center;
-                margin-top: 4.2rem;
+                align-items: flex-end;
                 gap: 3rem;
 
-                a{
+                a {
                 color: white;
                 text-decoration: none;
                 font-family: var(--font-text); 
                 font-size: 22px;
-                margin-top: 10%;
+                
                 }
                 a:hover {
                     background-image: radial-gradient( circle farthest-corner at 30% 20%,  rgb(182, 123, 254) 0%, rgb(86, 170, 255) 90% ); 
@@ -479,7 +453,7 @@ nav {
         justify-content: end;
 
         .apple2 {
-            width: 850px;
+            width: 900px;
             height: 550px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
             border-radius: 0rem 0.5rem 0.5rem 0rem;
@@ -579,7 +553,7 @@ nav {
         padding-bottom: 5rem;
 
         .apple3 {
-            width: 850px;
+            width: 900px;
             height: 550px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
             border-radius: 0.5rem 0rem 0rem 0.5rem;
@@ -673,10 +647,6 @@ nav {
     }
 }
         
-    
-
-
-
 
 // SECCION 5 - CONTACTO 
 
@@ -1035,7 +1005,7 @@ nav {
         .img1 {
             
             .apple1 {
-                width: 750px;
+                width: 800px;
                 height: 500px;
                 border-radius: 0.5rem 0rem 0rem 0.5rem;      
             }
@@ -1178,7 +1148,6 @@ nav {
         }
     }
 }
-
 
 // MEDIA QUERYS 1600PX
 
@@ -1468,7 +1437,6 @@ nav {
     }
 }
 
-
 // MEDIA QUERYS 1500PX
 
 @media screen and (max-width: 1500px) {
@@ -1757,7 +1725,6 @@ nav {
     }
 }
 
-
 // MEDIA QUERYS 1415PX
 
 @media screen and (max-width: 1415px) {
@@ -2043,7 +2010,6 @@ nav {
         }
     }
 }
-
 
 // MEDIA QUERYS 1350PX
 
@@ -2331,7 +2297,6 @@ nav {
         }
     }
 }
-
 
 // MEDIA QUERYS 1200PX
 
@@ -2656,7 +2621,6 @@ nav {
         }
     }
 }
-
 
 // MEDIA QUERYS - 1023PX
 
@@ -3002,7 +2966,6 @@ nav {
         }
     }
 }
-
 
 //MEDIA QUERYS 900PX
 
@@ -3354,7 +3317,6 @@ nav {
     }
 }
 
-
 //MEDIA QUERYS - 740PX
 
 @media screen and (max-width: 740px) {
@@ -3703,7 +3665,6 @@ nav {
     }
 }
 
-
 // MEDIA QUERYS - 620PX
 
 @media screen and (max-width: 620px) {
@@ -4051,7 +4012,6 @@ nav {
     }
 }
 
-
 // MEDIA QUERYS - 540PX
 
 @media screen and (max-width: 540px) {
@@ -4398,357 +4358,9 @@ nav {
     }
 }
 
-
-// MEDIA QUERYS - 440PX
+// MEDIA QUERYS - 440px
 
 @media screen and (max-width: 440px) {
-
-    .contain {
-        width: 92%;
-    }
-    header {
-    
-        nav {
-            height: 70px;
-            
-            .logo {
-                font-size: 1.5rem;
-            }
-            
-            .contain-nav {
-                justify-content: space-between;
-            }
-
-            .abrir-menu {
-                display: block;
-                font-size: 2rem;
-            } 
-            .menu-links {
-                flex-direction: column;
-                align-items: end;
-                position: fixed;
-                top: 70px;
-                left: 0;
-                padding: 1rem;
-                
-                background-color: #120439;
-                height: calc(100% - 70px);
-                margin: 0;
-
-                left: 100%;
-                transition: left 0.3s;
-            }
-            .nav-visible {
-                left: 0;
-                box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-            }
-        }
-    }
-    
-    
-
-    // SECCION 1 - INDEX - 440PX
-
-    .inicio {
-
-        .contain-inicio {
-        flex-direction: column;
-        gap: 3rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        }
-        
-        img {
-            width: 250px;
-            
-        }
-        .sec1-img-redes {
-            padding: 1.5rem;     
-            margin-top: 3rem;
-        }
-        .sec1-redes {
-            font-size: 1.9rem;
-        }
-        .sec1-texto {
-            margin-top: 0rem;
-            text-align: center;
-            h2 {
-                font-size: 3rem;
-            }
-            h3 {
-                font-size: 2rem;
-            }
-            p{
-                font-size: 1.4rem;
-            }
-            a {
-                font-size: 1.3rem;
-                margin-right: 8px;
-                margin-left: 8px;
-            }
-        }
-    }
-
-
-    // SECCION 2 - SOBRE MI - 440PX
-
-    .sobre-mi {
-
-        h2 {
-            font-size: 2rem;
-            margin-top: 6rem;
-            margin-bottom: 2rem;
-        }
-
-        .seccion2 {
-            width: 100%;
-            min-height: 770px;
-            flex-direction: column;
-            margin: auto;
-            margin-top: 0rem;
-            margin-bottom: 1rem;
-            padding: 1.3rem;
-        
-            p {
-                font-size: 1.17rem;
-                width: 100%;
-            }
-            .intereses {
-                grid-template-columns: repeat(3,auto);
-                gap: 0 20px 20px 20px;
-
-                .h2-intereses {
-                    grid-column: 1/4;
-                    text-align: center;
-                    margin-top: 1rem;
-                    margin-bottom: 0px;
-                    font-size: 1.9rem;
-                }
-                .inter {
-                    font-size: 1.2rem;
-                }
-            }
-        }
-    }
-
-    // SECCION 3 - HABILIDADES - 440PX
-
-    .habilidades {
-        
-
-        h2 {    
-            font-size: 2rem;
-            padding-top: 6rem;
-            margin-bottom: 5rem;
-            margin: auto;
-        }
-
-        .habilidad {
-            grid-template-columns: repeat(1,auto);
-            justify-content: center;
-
-            .progreso-barra {
-                width: 21.7rem;
-                margin: auto;
-            }
-        }
-        .aptitud-text {
-            text-align: center;
-            margin: auto;
-            margin-top: 2rem;
-            width: 100%;
-            padding: 1rem; 
-            font-size: 1.8rem;   
-        }
-        .aptitudes {
-            gap: 1rem;
-            display: grid;
-            grid-template-columns: repeat(2, auto);
-            justify-content: space-around;
-            margin-top: 3rem; 
-            padding-bottom: 3rem;   
-
-            img {
-                width: 43px;
-            }
-            p {
-                font-size: 1.2rem;
-            }
-        }
-    }
-
-
-    // SECCION 4 PROYECTOS - 440PX
-
-    .proyectos {
-    
-
-        h2 {
-            font-size: 2rem;
-            padding-top: 6rem;
-        }
-
-        .img1 {
-            flex-direction: column;
-
-            .apple1 {
-                width: 100%;
-                height: 250px;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-                margin: auto;
-            }
-            .cartel {
-                width: 100%;
-                height: 270px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-                margin: auto;
-                
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    
-                    p {
-                        font-size: 0.8rem;
-                    }
-                }
-
-                h3 {
-                    margin-top: 0px;
-                    font-size: 1.3rem;
-                }
-
-                .texto-sitio1 {
-                    margin-top: 0rem;
-                    font-size: 1.1rem;
-                }
-                h4 {
-                    margin-top: 0.5rem;
-                    font-size: 1.1rem;
-                }
-                .visitar {
-                    margin-top: -2%;
-                    a {
-                        font-size: 1.3rem;
-                    }
-                }
-            }
-        }
-
-        .img2 {
-            flex-direction: column;
-
-            .apple2 {
-                width: 100%;
-                height: 250px;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-                margin: auto;
-            }
-            .cartel {
-                width: 100%;
-                height: 270px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-                margin: auto;
-                
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    
-                    p {
-                        font-size: 0.8rem;
-                    }
-                }
-
-                h3 {
-                    margin-top: 0px;
-                    font-size: 1.3rem;
-                }
-
-                .texto-sitio1 {
-                    margin-top: 0rem;
-                    font-size: 1.1rem;
-                }
-                h4 {
-                    margin-top: 0.5rem;
-                    font-size: 1.1rem;
-                }
-                .visitar {
-                    margin-top: 2.5%;
-                    a {
-                        font-size: 1.3rem;
-                    }
-                }
-            }
-        }
-
-        .img3 {
-            flex-direction: column;
-
-            .apple3 {
-                width: 100%;
-                height: 250px;
-                border-radius: 0.5rem 0.5rem 0rem 0rem;
-                margin: auto;
-            }
-            .cartel {
-                width: 100%;
-                height: 270px;
-                border-radius: 0rem 0rem 0.5rem 0.5rem;
-                margin: auto;
-                
-
-                .grid-proyecto {
-                    grid-template-columns: repeat(3, auto);
-                    gap: 15px;
-                    p {
-                        font-size: 0.8rem;
-                    }
-                }
-
-                h3 {
-                    margin-top: 0px;
-                    font-size: 1.3rem;
-                }
-
-                .texto-sitio1 {
-                    margin-top: 0rem;
-                    font-size: 1.1rem;
-                }
-                h4 {
-                    margin-top: 0.5rem;
-                    font-size: 1.1rem;
-                }
-                .visitar {
-                    margin-top: -20%;
-                    a {
-                        font-size: 1.3rem;
-                    }
-                }
-            }
-        }
-    }
-
-    // PARTE 5- CONTACTO  - 440px
-
-    .contacto {
-        .contain {
-            h2 {
-                font-size: 2rem;
-        }
-            p {
-                font-size: 1.3rem;
-                text-align: center;
-            }
-            .button-contacto {
-                flex-direction: column;
-            }
-        }
-    }
-}
-
-
-// MEDIA QUERYS - 380px
-
-@media screen and (max-width: 380px) {
 
     .contain {
         width: 100%;
@@ -4794,8 +4406,6 @@ nav {
         }
     }
     
-    
-
     // SECCION 1 - INDEX - 380PX
 
     .inicio {
