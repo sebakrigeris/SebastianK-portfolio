@@ -350,6 +350,8 @@ nav {
     .contacto .contain .button-contacto {
       display: flex;
       gap: 5rem; }
+    .contacto .contain a {
+      text-decoration: none; }
     .contacto .contain .btn {
       display: flex;
       justify-content: center;
